@@ -1,0 +1,1832 @@
+[
+  {
+    "provider": "groq",
+    "model": "llama-3.3-70b-versatile",
+    "name": "Groq \u2014 Llama 3.3 70B Versatile",
+    "note": "Best Groq model. 128K ctx. 14400 req/day.",
+    "api_url": "https://api.groq.com/openai/v1",
+    "signup": "console.groq.com",
+    "free": true,
+    "requires_key": true
+  },
+  {
+    "provider": "groq",
+    "model": "llama-3.1-8b-instant",
+    "name": "Groq \u2014 Llama 3.1 8B Instant",
+    "note": "Ultra-fast. Good for high-volume specialist roles.",
+    "api_url": "https://api.groq.com/openai/v1",
+    "signup": "console.groq.com",
+    "free": true,
+    "requires_key": true
+  },
+  {
+    "provider": "groq",
+    "model": "llama3-70b-8192",
+    "name": "Groq \u2014 Llama 3 70B",
+    "note": "Strong 70B. 8192 ctx. Solid performance.",
+    "api_url": "https://api.groq.com/openai/v1",
+    "signup": "console.groq.com",
+    "free": true,
+    "requires_key": true
+  },
+  {
+    "provider": "groq",
+    "model": "llama3-8b-8192",
+    "name": "Groq \u2014 Llama 3 8B",
+    "note": "Fast lightweight model.",
+    "api_url": "https://api.groq.com/openai/v1",
+    "signup": "console.groq.com",
+    "free": true,
+    "requires_key": true
+  },
+  {
+    "provider": "groq",
+    "model": "gemma2-9b-it",
+    "name": "Groq \u2014 Gemma 2 9B",
+    "note": "Google's Gemma 2, fine-tuned. Good reasoning.",
+    "api_url": "https://api.groq.com/openai/v1",
+    "signup": "console.groq.com",
+    "free": true,
+    "requires_key": true
+  },
+  {
+    "provider": "groq",
+    "model": "gemma-7b-it",
+    "name": "Groq \u2014 Gemma 7B",
+    "note": "Original Gemma instruction-tuned.",
+    "api_url": "https://api.groq.com/openai/v1",
+    "signup": "console.groq.com",
+    "free": true,
+    "requires_key": true
+  },
+  {
+    "provider": "groq",
+    "model": "mixtral-8x7b-32768",
+    "name": "Groq \u2014 Mixtral 8x7B MoE",
+    "note": "Mixture-of-experts. 32K ctx. Strong general model.",
+    "api_url": "https://api.groq.com/openai/v1",
+    "signup": "console.groq.com",
+    "free": true,
+    "requires_key": true
+  },
+  {
+    "provider": "groq",
+    "model": "llama-3.2-11b-vision-preview",
+    "name": "Groq \u2014 Llama 3.2 11B Vision",
+    "note": "Multimodal. Can process charts/images.",
+    "api_url": "https://api.groq.com/openai/v1",
+    "signup": "console.groq.com",
+    "free": true,
+    "requires_key": true
+  },
+  {
+    "provider": "groq",
+    "model": "llama-3.2-90b-vision-preview",
+    "name": "Groq \u2014 Llama 3.2 90B Vision",
+    "note": "Large multimodal model.",
+    "api_url": "https://api.groq.com/openai/v1",
+    "signup": "console.groq.com",
+    "free": true,
+    "requires_key": true
+  },
+  {
+    "provider": "groq",
+    "model": "llama-3.2-3b-preview",
+    "name": "Groq \u2014 Llama 3.2 3B",
+    "note": "Tiny but fast.",
+    "api_url": "https://api.groq.com/openai/v1",
+    "signup": "console.groq.com",
+    "free": true,
+    "requires_key": true
+  },
+  {
+    "provider": "groq",
+    "model": "llama-3.2-1b-preview",
+    "name": "Groq \u2014 Llama 3.2 1B",
+    "note": "Smallest Llama. Very fast.",
+    "api_url": "https://api.groq.com/openai/v1",
+    "signup": "console.groq.com",
+    "free": true,
+    "requires_key": true
+  },
+  {
+    "provider": "groq",
+    "model": "llama-guard-3-8b",
+    "name": "Groq \u2014 Llama Guard 3 8B",
+    "note": "Safety model. Not for analysis \u2014 for moderation.",
+    "api_url": "https://api.groq.com/openai/v1",
+    "signup": "console.groq.com",
+    "free": true,
+    "requires_key": true
+  },
+  {
+    "provider": "groq",
+    "model": "deepseek-r1-distill-llama-70b",
+    "name": "Groq \u2014 DeepSeek R1 Distill Llama 70B",
+    "note": "Reasoning model on Groq. Strong.",
+    "api_url": "https://api.groq.com/openai/v1",
+    "signup": "console.groq.com",
+    "free": true,
+    "requires_key": true
+  },
+  {
+    "provider": "groq",
+    "model": "qwen-qwq-32b",
+    "name": "Groq \u2014 Qwen QwQ 32B",
+    "note": "Reasoning model. Strong math/analysis.",
+    "api_url": "https://api.groq.com/openai/v1",
+    "signup": "console.groq.com",
+    "free": true,
+    "requires_key": true
+  },
+  {
+    "provider": "groq",
+    "model": "qwen-2.5-coder-32b",
+    "name": "Groq \u2014 Qwen 2.5 Coder 32B",
+    "note": "Code specialist on Groq.",
+    "api_url": "https://api.groq.com/openai/v1",
+    "signup": "console.groq.com",
+    "free": true,
+    "requires_key": true
+  },
+  {
+    "provider": "groq",
+    "model": "mistral-saba-24b",
+    "name": "Groq \u2014 Mistral Saba 24B",
+    "note": "Mistral's Arabic/multilingual model.",
+    "api_url": "https://api.groq.com/openai/v1",
+    "signup": "console.groq.com",
+    "free": true,
+    "requires_key": true
+  },
+  {
+    "provider": "groq",
+    "model": "allam-2-7b",
+    "name": "Groq \u2014 Allam 2 7B",
+    "note": "Arabic-focused model.",
+    "api_url": "https://api.groq.com/openai/v1",
+    "signup": "console.groq.com",
+    "free": true,
+    "requires_key": true
+  },
+  {
+    "provider": "groq",
+    "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+    "name": "Groq \u2014 Llama 4 Scout 17B",
+    "note": "Latest Llama 4. Mixture of experts.",
+    "api_url": "https://api.groq.com/openai/v1",
+    "signup": "console.groq.com",
+    "free": true,
+    "requires_key": true
+  },
+  {
+    "provider": "groq",
+    "model": "meta-llama/llama-4-maverick-17b-128e-instruct",
+    "name": "Groq \u2014 Llama 4 Maverick 17B",
+    "note": "Llama 4 larger MoE variant.",
+    "api_url": "https://api.groq.com/openai/v1",
+    "signup": "console.groq.com",
+    "free": true,
+    "requires_key": true
+  },
+  {
+    "provider": "openrouter",
+    "model": "meta-llama/llama-3.3-70b-instruct:free",
+    "name": "OR \u2014 Llama 3.3 70B",
+    "note": "Top free model on OpenRouter. 128K ctx.",
+    "api_url": "https://openrouter.ai/api/v1",
+    "signup": "openrouter.ai",
+    "free": true,
+    "requires_key": true
+  },
+  {
+    "provider": "openrouter",
+    "model": "meta-llama/llama-3.1-8b-instruct:free",
+    "name": "OR \u2014 Llama 3.1 8B",
+    "note": "Fast free model. 128K ctx.",
+    "api_url": "https://openrouter.ai/api/v1",
+    "signup": "openrouter.ai",
+    "free": true,
+    "requires_key": true
+  },
+  {
+    "provider": "openrouter",
+    "model": "meta-llama/llama-3.2-3b-instruct:free",
+    "name": "OR \u2014 Llama 3.2 3B",
+    "note": "Tiny and fast.",
+    "api_url": "https://openrouter.ai/api/v1",
+    "signup": "openrouter.ai",
+    "free": true,
+    "requires_key": true
+  },
+  {
+    "provider": "openrouter",
+    "model": "meta-llama/llama-3.2-11b-vision-instruct:free",
+    "name": "OR \u2014 Llama 3.2 11B Vision",
+    "note": "Multimodal free on OpenRouter.",
+    "api_url": "https://openrouter.ai/api/v1",
+    "signup": "openrouter.ai",
+    "free": true,
+    "requires_key": true
+  },
+  {
+    "provider": "openrouter",
+    "model": "google/gemma-2-9b-it:free",
+    "name": "OR \u2014 Gemma 2 9B",
+    "note": "Google Gemma 2 free.",
+    "api_url": "https://openrouter.ai/api/v1",
+    "signup": "openrouter.ai",
+    "free": true,
+    "requires_key": true
+  },
+  {
+    "provider": "openrouter",
+    "model": "google/gemma-3-4b-it:free",
+    "name": "OR \u2014 Gemma 3 4B",
+    "note": "Latest Gemma 3 free tier.",
+    "api_url": "https://openrouter.ai/api/v1",
+    "signup": "openrouter.ai",
+    "free": true,
+    "requires_key": true
+  },
+  {
+    "provider": "openrouter",
+    "model": "google/gemma-3-12b-it:free",
+    "name": "OR \u2014 Gemma 3 12B",
+    "note": "Gemma 3 12B free.",
+    "api_url": "https://openrouter.ai/api/v1",
+    "signup": "openrouter.ai",
+    "free": true,
+    "requires_key": true
+  },
+  {
+    "provider": "openrouter",
+    "model": "google/gemma-3-27b-it:free",
+    "name": "OR \u2014 Gemma 3 27B",
+    "note": "Gemma 3 27B free. Strong model.",
+    "api_url": "https://openrouter.ai/api/v1",
+    "signup": "openrouter.ai",
+    "free": true,
+    "requires_key": true
+  },
+  {
+    "provider": "openrouter",
+    "model": "mistralai/mistral-7b-instruct:free",
+    "name": "OR \u2014 Mistral 7B",
+    "note": "Classic Mistral 7B free.",
+    "api_url": "https://openrouter.ai/api/v1",
+    "signup": "openrouter.ai",
+    "free": true,
+    "requires_key": true
+  },
+  {
+    "provider": "openrouter",
+    "model": "mistralai/mistral-small-3.1-24b-instruct:free",
+    "name": "OR \u2014 Mistral Small 3.1 24B",
+    "note": "Mistral's 24B free on OpenRouter.",
+    "api_url": "https://openrouter.ai/api/v1",
+    "signup": "openrouter.ai",
+    "free": true,
+    "requires_key": true
+  },
+  {
+    "provider": "openrouter",
+    "model": "qwen/qwen-2.5-7b-instruct:free",
+    "name": "OR \u2014 Qwen 2.5 7B",
+    "note": "Alibaba Qwen 2.5 free.",
+    "api_url": "https://openrouter.ai/api/v1",
+    "signup": "openrouter.ai",
+    "free": true,
+    "requires_key": true
+  },
+  {
+    "provider": "openrouter",
+    "model": "qwen/qwen-2.5-72b-instruct:free",
+    "name": "OR \u2014 Qwen 2.5 72B",
+    "note": "Large Qwen 2.5 free.",
+    "api_url": "https://openrouter.ai/api/v1",
+    "signup": "openrouter.ai",
+    "free": true,
+    "requires_key": true
+  },
+  {
+    "provider": "openrouter",
+    "model": "qwen/qwen3-8b:free",
+    "name": "OR \u2014 Qwen3 8B",
+    "note": "Latest Qwen3 free.",
+    "api_url": "https://openrouter.ai/api/v1",
+    "signup": "openrouter.ai",
+    "free": true,
+    "requires_key": true
+  },
+  {
+    "provider": "openrouter",
+    "model": "qwen/qwen3-14b:free",
+    "name": "OR \u2014 Qwen3 14B",
+    "note": "Qwen3 14B free.",
+    "api_url": "https://openrouter.ai/api/v1",
+    "signup": "openrouter.ai",
+    "free": true,
+    "requires_key": true
+  },
+  {
+    "provider": "openrouter",
+    "model": "qwen/qwen3-32b:free",
+    "name": "OR \u2014 Qwen3 32B",
+    "note": "Qwen3 32B free. Strong.",
+    "api_url": "https://openrouter.ai/api/v1",
+    "signup": "openrouter.ai",
+    "free": true,
+    "requires_key": true
+  },
+  {
+    "provider": "openrouter",
+    "model": "deepseek/deepseek-r1:free",
+    "name": "OR \u2014 DeepSeek R1",
+    "note": "Reasoning model. Excellent. Free on OpenRouter.",
+    "api_url": "https://openrouter.ai/api/v1",
+    "signup": "openrouter.ai",
+    "free": true,
+    "requires_key": true
+  },
+  {
+    "provider": "openrouter",
+    "model": "deepseek/deepseek-chat-v3-0324:free",
+    "name": "OR \u2014 DeepSeek V3 March",
+    "note": "DeepSeek V3 updated.",
+    "api_url": "https://openrouter.ai/api/v1",
+    "signup": "openrouter.ai",
+    "free": true,
+    "requires_key": true
+  },
+  {
+    "provider": "openrouter",
+    "model": "deepseek/deepseek-v3:free",
+    "name": "OR \u2014 DeepSeek V3",
+    "note": "Strong general model. Free.",
+    "api_url": "https://openrouter.ai/api/v1",
+    "signup": "openrouter.ai",
+    "free": true,
+    "requires_key": true
+  },
+  {
+    "provider": "openrouter",
+    "model": "deepseek/deepseek-r1-distill-llama-70b:free",
+    "name": "OR \u2014 DeepSeek R1 Distill",
+    "note": "Smaller reasoning model. Free.",
+    "api_url": "https://openrouter.ai/api/v1",
+    "signup": "openrouter.ai",
+    "free": true,
+    "requires_key": true
+  },
+  {
+    "provider": "openrouter",
+    "model": "microsoft/phi-3-mini-128k-instruct:free",
+    "name": "OR \u2014 Phi-3 Mini 128K",
+    "note": "Microsoft Phi-3 Mini. 128K context.",
+    "api_url": "https://openrouter.ai/api/v1",
+    "signup": "openrouter.ai",
+    "free": true,
+    "requires_key": true
+  },
+  {
+    "provider": "openrouter",
+    "model": "microsoft/phi-3-medium-128k-instruct:free",
+    "name": "OR \u2014 Phi-3 Medium 128K",
+    "note": "Phi-3 Medium. Strong for its size.",
+    "api_url": "https://openrouter.ai/api/v1",
+    "signup": "openrouter.ai",
+    "free": true,
+    "requires_key": true
+  },
+  {
+    "provider": "openrouter",
+    "model": "microsoft/phi-3.5-mini-instruct:free",
+    "name": "OR \u2014 Phi-3.5 Mini",
+    "note": "Latest Phi. Efficient.",
+    "api_url": "https://openrouter.ai/api/v1",
+    "signup": "openrouter.ai",
+    "free": true,
+    "requires_key": true
+  },
+  {
+    "provider": "openrouter",
+    "model": "nvidia/llama-3.1-nemotron-70b-instruct:free",
+    "name": "OR \u2014 Nemotron 70B",
+    "note": "NVIDIA's fine-tuned 70B. Strong.",
+    "api_url": "https://openrouter.ai/api/v1",
+    "signup": "openrouter.ai",
+    "free": true,
+    "requires_key": true
+  },
+  {
+    "provider": "openrouter",
+    "model": "nvidia/llama-3.3-nemotron-super-49b-v1:free",
+    "name": "OR \u2014 Nemotron Super 49B",
+    "note": "NVIDIA Nemotron Super 49B free.",
+    "api_url": "https://openrouter.ai/api/v1",
+    "signup": "openrouter.ai",
+    "free": true,
+    "requires_key": true
+  },
+  {
+    "provider": "openrouter",
+    "model": "arcee-ai/arcee-blitz:free",
+    "name": "OR \u2014 Arcee Blitz",
+    "note": "Fast Arcee model.",
+    "api_url": "https://openrouter.ai/api/v1",
+    "signup": "openrouter.ai",
+    "free": true,
+    "requires_key": true
+  },
+  {
+    "provider": "openrouter",
+    "model": "arcee-ai/trinity-large-preview:free",
+    "name": "OR \u2014 Arcee Trinity Large",
+    "note": "400B MoE preview. Free.",
+    "api_url": "https://openrouter.ai/api/v1",
+    "signup": "openrouter.ai",
+    "free": true,
+    "requires_key": true
+  },
+  {
+    "provider": "openrouter",
+    "model": "arcee-ai/trinity-mini:free",
+    "name": "OR \u2014 Arcee Trinity Mini",
+    "note": "Smaller Trinity variant.",
+    "api_url": "https://openrouter.ai/api/v1",
+    "signup": "openrouter.ai",
+    "free": true,
+    "requires_key": true
+  },
+  {
+    "provider": "openrouter",
+    "model": "cognitivecomputations/dolphin-mistral-24b-venice-edition:free",
+    "name": "OR \u2014 Dolphin Mistral 24B",
+    "note": "Dolphin fine-tune of Mistral.",
+    "api_url": "https://openrouter.ai/api/v1",
+    "signup": "openrouter.ai",
+    "free": true,
+    "requires_key": true
+  },
+  {
+    "provider": "openrouter",
+    "model": "huggingfaceh4/zephyr-7b-beta:free",
+    "name": "OR \u2014 Zephyr 7B Beta",
+    "note": "HF fine-tune. Good for chat.",
+    "api_url": "https://openrouter.ai/api/v1",
+    "signup": "openrouter.ai",
+    "free": true,
+    "requires_key": true
+  },
+  {
+    "provider": "openrouter",
+    "model": "openchat/openchat-7b:free",
+    "name": "OR \u2014 OpenChat 7B",
+    "note": "OpenChat fine-tune.",
+    "api_url": "https://openrouter.ai/api/v1",
+    "signup": "openrouter.ai",
+    "free": true,
+    "requires_key": true
+  },
+  {
+    "provider": "openrouter",
+    "model": "nousresearch/nous-capybara-7b:free",
+    "name": "OR \u2014 Nous Capybara 7B",
+    "note": "Nous Research model.",
+    "api_url": "https://openrouter.ai/api/v1",
+    "signup": "openrouter.ai",
+    "free": true,
+    "requires_key": true
+  },
+  {
+    "provider": "openrouter",
+    "model": "gryphe/mythomist-7b:free",
+    "name": "OR \u2014 MythoMist 7B",
+    "note": "Creative writing focus.",
+    "api_url": "https://openrouter.ai/api/v1",
+    "signup": "openrouter.ai",
+    "free": true,
+    "requires_key": true
+  },
+  {
+    "provider": "openrouter",
+    "model": "undi95/toppy-m-7b:free",
+    "name": "OR \u2014 Toppy M 7B",
+    "note": "Merged model.",
+    "api_url": "https://openrouter.ai/api/v1",
+    "signup": "openrouter.ai",
+    "free": true,
+    "requires_key": true
+  },
+  {
+    "provider": "openrouter",
+    "model": "openrouter/free",
+    "name": "OR \u2014 Free Router",
+    "note": "OpenRouter auto-selects best available free model.",
+    "api_url": "https://openrouter.ai/api/v1",
+    "signup": "openrouter.ai",
+    "free": true,
+    "requires_key": true
+  },
+  {
+    "provider": "google",
+    "model": "gemini-2.5-flash-preview-05-20",
+    "name": "Google Gemini 2.5 Flash",
+    "note": "Best free Google model. 1M ctx. Very capable.",
+    "api_url": "https://generativelanguage.googleapis.com/v1beta",
+    "signup": "aistudio.google.com",
+    "free": true,
+    "requires_key": true
+  },
+  {
+    "provider": "google",
+    "model": "gemini-2.5-pro-exp-03-25",
+    "name": "Google Gemini 2.5 Pro Exp",
+    "note": "Experimental pro model. 1M ctx.",
+    "api_url": "https://generativelanguage.googleapis.com/v1beta",
+    "signup": "aistudio.google.com",
+    "free": true,
+    "requires_key": true
+  },
+  {
+    "provider": "google",
+    "model": "gemini-2.0-flash-exp",
+    "name": "Google Gemini 2.0 Flash Exp",
+    "note": "Fast Gemini 2.0. Multimodal.",
+    "api_url": "https://generativelanguage.googleapis.com/v1beta",
+    "signup": "aistudio.google.com",
+    "free": true,
+    "requires_key": true
+  },
+  {
+    "provider": "google",
+    "model": "gemini-2.0-flash",
+    "name": "Google Gemini 2.0 Flash",
+    "note": "Stable Flash 2.0. Great for analysis.",
+    "api_url": "https://generativelanguage.googleapis.com/v1beta",
+    "signup": "aistudio.google.com",
+    "free": true,
+    "requires_key": true
+  },
+  {
+    "provider": "google",
+    "model": "gemini-1.5-flash",
+    "name": "Google Gemini 1.5 Flash",
+    "note": "Original Flash. 1M ctx. Reliable.",
+    "api_url": "https://generativelanguage.googleapis.com/v1beta",
+    "signup": "aistudio.google.com",
+    "free": true,
+    "requires_key": true
+  },
+  {
+    "provider": "google",
+    "model": "gemini-1.5-flash-8b",
+    "name": "Google Gemini 1.5 Flash 8B",
+    "note": "Smaller, faster Flash.",
+    "api_url": "https://generativelanguage.googleapis.com/v1beta",
+    "signup": "aistudio.google.com",
+    "free": true,
+    "requires_key": true
+  },
+  {
+    "provider": "google",
+    "model": "gemini-1.5-pro",
+    "name": "Google Gemini 1.5 Pro",
+    "note": "Larger Pro model. 2M ctx.",
+    "api_url": "https://generativelanguage.googleapis.com/v1beta",
+    "signup": "aistudio.google.com",
+    "free": true,
+    "requires_key": true
+  },
+  {
+    "provider": "google",
+    "model": "gemma-3-27b-it",
+    "name": "Google Gemma 3 27B",
+    "note": "Open model via Google. Strong.",
+    "api_url": "https://generativelanguage.googleapis.com/v1beta",
+    "signup": "aistudio.google.com",
+    "free": true,
+    "requires_key": true
+  },
+  {
+    "provider": "google",
+    "model": "gemma-3-12b-it",
+    "name": "Google Gemma 3 12B",
+    "note": "Gemma 3 12B via AI Studio.",
+    "api_url": "https://generativelanguage.googleapis.com/v1beta",
+    "signup": "aistudio.google.com",
+    "free": true,
+    "requires_key": true
+  },
+  {
+    "provider": "google",
+    "model": "gemma-3n-e4b-it",
+    "name": "Google Gemma 3n E4B",
+    "note": "Efficient Gemma for edge.",
+    "api_url": "https://generativelanguage.googleapis.com/v1beta",
+    "signup": "aistudio.google.com",
+    "free": true,
+    "requires_key": true
+  },
+  {
+    "provider": "mistral",
+    "model": "mistral-small-latest",
+    "name": "Mistral Small (latest)",
+    "note": "Best free Mistral. 1B tokens/month free.",
+    "api_url": "https://api.mistral.ai/v1",
+    "signup": "console.mistral.ai",
+    "free": true,
+    "requires_key": true
+  },
+  {
+    "provider": "mistral",
+    "model": "open-mistral-7b",
+    "name": "Mistral 7B (open)",
+    "note": "Classic open Mistral 7B.",
+    "api_url": "https://api.mistral.ai/v1",
+    "signup": "console.mistral.ai",
+    "free": true,
+    "requires_key": true
+  },
+  {
+    "provider": "mistral",
+    "model": "open-mixtral-8x7b",
+    "name": "Mixtral 8x7B (open)",
+    "note": "MoE model. 32K ctx.",
+    "api_url": "https://api.mistral.ai/v1",
+    "signup": "console.mistral.ai",
+    "free": true,
+    "requires_key": true
+  },
+  {
+    "provider": "mistral",
+    "model": "open-mixtral-8x22b",
+    "name": "Mixtral 8x22B (open)",
+    "note": "Larger MoE. More capable.",
+    "api_url": "https://api.mistral.ai/v1",
+    "signup": "console.mistral.ai",
+    "free": true,
+    "requires_key": true
+  },
+  {
+    "provider": "mistral",
+    "model": "open-mistral-nemo",
+    "name": "Mistral Nemo (open)",
+    "note": "128K context. Good multilingual.",
+    "api_url": "https://api.mistral.ai/v1",
+    "signup": "console.mistral.ai",
+    "free": true,
+    "requires_key": true
+  },
+  {
+    "provider": "mistral",
+    "model": "codestral-mamba",
+    "name": "Codestral Mamba",
+    "note": "Code-focused model with Mamba architecture.",
+    "api_url": "https://api.mistral.ai/v1",
+    "signup": "console.mistral.ai",
+    "free": true,
+    "requires_key": true
+  },
+  {
+    "provider": "cerebras",
+    "model": "llama-3.3-70b",
+    "name": "Cerebras Llama 3.3 70B",
+    "note": "Very fast hardware. Free tier.",
+    "api_url": "https://api.cerebras.ai/v1",
+    "signup": "inference.cerebras.ai",
+    "free": true,
+    "requires_key": true
+  },
+  {
+    "provider": "cerebras",
+    "model": "llama3.1-70b",
+    "name": "Cerebras Llama 3.1 70B",
+    "note": "Strong 70B on Cerebras.",
+    "api_url": "https://api.cerebras.ai/v1",
+    "signup": "inference.cerebras.ai",
+    "free": true,
+    "requires_key": true
+  },
+  {
+    "provider": "cerebras",
+    "model": "llama3.1-8b",
+    "name": "Cerebras Llama 3.1 8B",
+    "note": "Fast 8B model.",
+    "api_url": "https://api.cerebras.ai/v1",
+    "signup": "inference.cerebras.ai",
+    "free": true,
+    "requires_key": true
+  },
+  {
+    "provider": "cerebras",
+    "model": "qwen-3-32b",
+    "name": "Cerebras Qwen3 32B",
+    "note": "Qwen3 32B on Cerebras hardware.",
+    "api_url": "https://api.cerebras.ai/v1",
+    "signup": "inference.cerebras.ai",
+    "free": true,
+    "requires_key": true
+  },
+  {
+    "provider": "together",
+    "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+    "name": "Together Llama 3.3 70B Turbo",
+    "note": "Fastest 70B on Together.",
+    "api_url": "https://api.together.xyz/v1",
+    "signup": "platform.together.ai",
+    "free": true,
+    "requires_key": true
+  },
+  {
+    "provider": "together",
+    "model": "meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo",
+    "name": "Together Llama 3.1 8B Turbo",
+    "note": "Fast 8B for high volume.",
+    "api_url": "https://api.together.xyz/v1",
+    "signup": "platform.together.ai",
+    "free": true,
+    "requires_key": true
+  },
+  {
+    "provider": "together",
+    "model": "meta-llama/Meta-Llama-3.1-70B-Instruct-Turbo",
+    "name": "Together Llama 3.1 70B Turbo",
+    "note": "Strong 70B.",
+    "api_url": "https://api.together.xyz/v1",
+    "signup": "platform.together.ai",
+    "free": true,
+    "requires_key": true
+  },
+  {
+    "provider": "together",
+    "model": "meta-llama/Llama-4-Scout-17B-16E-Instruct",
+    "name": "Together Llama 4 Scout 17B",
+    "note": "Llama 4 MoE.",
+    "api_url": "https://api.together.xyz/v1",
+    "signup": "platform.together.ai",
+    "free": true,
+    "requires_key": true
+  },
+  {
+    "provider": "together",
+    "model": "meta-llama/Llama-4-Maverick-17B-128E-Instruct",
+    "name": "Together Llama 4 Maverick",
+    "note": "Larger Llama 4 MoE.",
+    "api_url": "https://api.together.xyz/v1",
+    "signup": "platform.together.ai",
+    "free": true,
+    "requires_key": true
+  },
+  {
+    "provider": "together",
+    "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+    "name": "Together Qwen 2.5 7B Turbo",
+    "note": "Fast Qwen 2.5.",
+    "api_url": "https://api.together.xyz/v1",
+    "signup": "platform.together.ai",
+    "free": true,
+    "requires_key": true
+  },
+  {
+    "provider": "together",
+    "model": "Qwen/Qwen2.5-72B-Instruct-Turbo",
+    "name": "Together Qwen 2.5 72B Turbo",
+    "note": "Large Qwen 2.5.",
+    "api_url": "https://api.together.xyz/v1",
+    "signup": "platform.together.ai",
+    "free": true,
+    "requires_key": true
+  },
+  {
+    "provider": "together",
+    "model": "deepseek-ai/DeepSeek-V3",
+    "name": "Together DeepSeek V3",
+    "note": "DeepSeek V3 on Together.",
+    "api_url": "https://api.together.xyz/v1",
+    "signup": "platform.together.ai",
+    "free": true,
+    "requires_key": true
+  },
+  {
+    "provider": "together",
+    "model": "deepseek-ai/DeepSeek-R1",
+    "name": "Together DeepSeek R1",
+    "note": "Reasoning model.",
+    "api_url": "https://api.together.xyz/v1",
+    "signup": "platform.together.ai",
+    "free": true,
+    "requires_key": true
+  },
+  {
+    "provider": "together",
+    "model": "google/gemma-2-27b-it",
+    "name": "Together Gemma 2 27B",
+    "note": "Large Gemma 2.",
+    "api_url": "https://api.together.xyz/v1",
+    "signup": "platform.together.ai",
+    "free": true,
+    "requires_key": true
+  },
+  {
+    "provider": "together",
+    "model": "mistralai/Mixtral-8x7B-Instruct-v0.1",
+    "name": "Together Mixtral 8x7B",
+    "note": "Classic MoE on Together.",
+    "api_url": "https://api.together.xyz/v1",
+    "signup": "platform.together.ai",
+    "free": true,
+    "requires_key": true
+  },
+  {
+    "provider": "together",
+    "model": "microsoft/WizardLM-2-8x22B",
+    "name": "Together WizardLM 2 8x22B",
+    "note": "Microsoft's wizard model.",
+    "api_url": "https://api.together.xyz/v1",
+    "signup": "platform.together.ai",
+    "free": true,
+    "requires_key": true
+  },
+  {
+    "provider": "together",
+    "model": "NousResearch/Nous-Hermes-2-Yi-34B",
+    "name": "Together Hermes 2 Yi 34B",
+    "note": "Nous Research model.",
+    "api_url": "https://api.together.xyz/v1",
+    "signup": "platform.together.ai",
+    "free": true,
+    "requires_key": true
+  },
+  {
+    "provider": "together",
+    "model": "togethercomputer/StripedHyena-Nous-7B",
+    "name": "Together StripedHyena 7B",
+    "note": "Hybrid architecture model.",
+    "api_url": "https://api.together.xyz/v1",
+    "signup": "platform.together.ai",
+    "free": true,
+    "requires_key": true
+  },
+  {
+    "provider": "deepseek",
+    "model": "deepseek-chat",
+    "name": "DeepSeek V3 Chat",
+    "note": "Excellent. ~$0. 64K ctx.",
+    "api_url": "https://api.deepseek.com",
+    "signup": "platform.deepseek.com",
+    "free": false,
+    "requires_key": true
+  },
+  {
+    "provider": "deepseek",
+    "model": "deepseek-reasoner",
+    "name": "DeepSeek R1 Reasoner",
+    "note": "Chain-of-thought reasoning. Best for synthesis.",
+    "api_url": "https://api.deepseek.com",
+    "signup": "platform.deepseek.com",
+    "free": false,
+    "requires_key": true
+  },
+  {
+    "provider": "sambanova",
+    "model": "Meta-Llama-3.3-70B-Instruct",
+    "name": "SambaNova Llama 3.3 70B",
+    "note": "Fast inference on SambaNova hardware.",
+    "api_url": "https://api.sambanova.ai/v1",
+    "signup": "cloud.sambanova.ai",
+    "free": true,
+    "requires_key": true
+  },
+  {
+    "provider": "sambanova",
+    "model": "Meta-Llama-3.1-405B-Instruct",
+    "name": "SambaNova Llama 3.1 405B",
+    "note": "Massive 405B model. Free tier.",
+    "api_url": "https://api.sambanova.ai/v1",
+    "signup": "cloud.sambanova.ai",
+    "free": true,
+    "requires_key": true
+  },
+  {
+    "provider": "sambanova",
+    "model": "Qwen2.5-72B-Instruct",
+    "name": "SambaNova Qwen 2.5 72B",
+    "note": "Large Qwen on SambaNova.",
+    "api_url": "https://api.sambanova.ai/v1",
+    "signup": "cloud.sambanova.ai",
+    "free": true,
+    "requires_key": true
+  },
+  {
+    "provider": "sambanova",
+    "model": "DeepSeek-R1-Distill-Llama-70B",
+    "name": "SambaNova DeepSeek R1 Distill",
+    "note": "Reasoning model distill.",
+    "api_url": "https://api.sambanova.ai/v1",
+    "signup": "cloud.sambanova.ai",
+    "free": true,
+    "requires_key": true
+  },
+  {
+    "provider": "sambanova",
+    "model": "Qwen3-32B",
+    "name": "SambaNova Qwen3 32B",
+    "note": "Latest Qwen3.",
+    "api_url": "https://api.sambanova.ai/v1",
+    "signup": "cloud.sambanova.ai",
+    "free": true,
+    "requires_key": true
+  },
+  {
+    "provider": "nvidia",
+    "model": "meta/llama-3.3-70b-instruct",
+    "name": "NVIDIA Llama 3.3 70B",
+    "note": "NVIDIA-optimized Llama.",
+    "api_url": "https://integrate.api.nvidia.com/v1",
+    "signup": "build.nvidia.com",
+    "free": true,
+    "requires_key": true
+  },
+  {
+    "provider": "nvidia",
+    "model": "meta/llama-3.1-405b-instruct",
+    "name": "NVIDIA Llama 3.1 405B",
+    "note": "Huge model, NVIDIA-hosted.",
+    "api_url": "https://integrate.api.nvidia.com/v1",
+    "signup": "build.nvidia.com",
+    "free": true,
+    "requires_key": true
+  },
+  {
+    "provider": "nvidia",
+    "model": "nvidia/llama-3.1-nemotron-70b-instruct",
+    "name": "NVIDIA Nemotron 70B",
+    "note": "NVIDIA's fine-tuned 70B.",
+    "api_url": "https://integrate.api.nvidia.com/v1",
+    "signup": "build.nvidia.com",
+    "free": true,
+    "requires_key": true
+  },
+  {
+    "provider": "nvidia",
+    "model": "deepseek-ai/deepseek-r1",
+    "name": "NVIDIA DeepSeek R1",
+    "note": "Reasoning model on NIM.",
+    "api_url": "https://integrate.api.nvidia.com/v1",
+    "signup": "build.nvidia.com",
+    "free": true,
+    "requires_key": true
+  },
+  {
+    "provider": "nvidia",
+    "model": "mistralai/mistral-large-2-instruct",
+    "name": "NVIDIA Mistral Large 2",
+    "note": "Mistral Large via NIM.",
+    "api_url": "https://integrate.api.nvidia.com/v1",
+    "signup": "build.nvidia.com",
+    "free": true,
+    "requires_key": true
+  },
+  {
+    "provider": "nvidia",
+    "model": "qwen/qwen2.5-72b-instruct",
+    "name": "NVIDIA Qwen 2.5 72B",
+    "note": "Large Qwen on NVIDIA.",
+    "api_url": "https://integrate.api.nvidia.com/v1",
+    "signup": "build.nvidia.com",
+    "free": true,
+    "requires_key": true
+  },
+  {
+    "provider": "nvidia",
+    "model": "microsoft/phi-3.5-mini-instruct",
+    "name": "NVIDIA Phi 3.5 Mini",
+    "note": "Efficient Phi on NIM.",
+    "api_url": "https://integrate.api.nvidia.com/v1",
+    "signup": "build.nvidia.com",
+    "free": true,
+    "requires_key": true
+  },
+  {
+    "provider": "nvidia",
+    "model": "ibm/granite-3.0-8b-instruct",
+    "name": "NVIDIA IBM Granite 3.0 8B",
+    "note": "IBM Granite on NIM.",
+    "api_url": "https://integrate.api.nvidia.com/v1",
+    "signup": "build.nvidia.com",
+    "free": true,
+    "requires_key": true
+  },
+  {
+    "provider": "cohere",
+    "model": "command-r-plus-08-2024",
+    "name": "Cohere Command R+ (Aug 2024)",
+    "note": "Cohere's best model. RAG-optimized.",
+    "api_url": "https://api.cohere.com/v2",
+    "signup": "cohere.com",
+    "free": true,
+    "requires_key": true
+  },
+  {
+    "provider": "cohere",
+    "model": "command-r-08-2024",
+    "name": "Cohere Command R (Aug 2024)",
+    "note": "Smaller Command R.",
+    "api_url": "https://api.cohere.com/v2",
+    "signup": "cohere.com",
+    "free": true,
+    "requires_key": true
+  },
+  {
+    "provider": "cohere",
+    "model": "command-r7b-12-2024",
+    "name": "Cohere Command R7B",
+    "note": "Tiny Command R.",
+    "api_url": "https://api.cohere.com/v2",
+    "signup": "cohere.com",
+    "free": true,
+    "requires_key": true
+  },
+  {
+    "provider": "cohere",
+    "model": "command-light",
+    "name": "Cohere Command Light",
+    "note": "Fast lightweight model.",
+    "api_url": "https://api.cohere.com/v2",
+    "signup": "cohere.com",
+    "free": true,
+    "requires_key": true
+  },
+  {
+    "provider": "fireworks",
+    "model": "accounts/fireworks/models/llama-v3p3-70b-instruct",
+    "name": "Fireworks Llama 3.3 70B",
+    "note": "Fast Llama on Fireworks.",
+    "api_url": "https://api.fireworks.ai/inference/v1",
+    "signup": "fireworks.ai",
+    "free": true,
+    "requires_key": true
+  },
+  {
+    "provider": "fireworks",
+    "model": "accounts/fireworks/models/llama-v3p1-8b-instruct",
+    "name": "Fireworks Llama 3.1 8B",
+    "note": "Fast 8B on Fireworks.",
+    "api_url": "https://api.fireworks.ai/inference/v1",
+    "signup": "fireworks.ai",
+    "free": true,
+    "requires_key": true
+  },
+  {
+    "provider": "fireworks",
+    "model": "accounts/fireworks/models/deepseek-v3",
+    "name": "Fireworks DeepSeek V3",
+    "note": "DeepSeek V3 on Fireworks.",
+    "api_url": "https://api.fireworks.ai/inference/v1",
+    "signup": "fireworks.ai",
+    "free": true,
+    "requires_key": true
+  },
+  {
+    "provider": "fireworks",
+    "model": "accounts/fireworks/models/qwen2p5-72b-instruct",
+    "name": "Fireworks Qwen 2.5 72B",
+    "note": "Large Qwen on Fireworks.",
+    "api_url": "https://api.fireworks.ai/inference/v1",
+    "signup": "fireworks.ai",
+    "free": true,
+    "requires_key": true
+  },
+  {
+    "provider": "fireworks",
+    "model": "accounts/fireworks/models/mixtral-8x7b-instruct",
+    "name": "Fireworks Mixtral 8x7B",
+    "note": "MoE on Fireworks.",
+    "api_url": "https://api.fireworks.ai/inference/v1",
+    "signup": "fireworks.ai",
+    "free": true,
+    "requires_key": true
+  },
+  {
+    "provider": "fireworks",
+    "model": "accounts/fireworks/models/mixtral-8x22b-instruct",
+    "name": "Fireworks Mixtral 8x22B",
+    "note": "Larger MoE.",
+    "api_url": "https://api.fireworks.ai/inference/v1",
+    "signup": "fireworks.ai",
+    "free": true,
+    "requires_key": true
+  },
+  {
+    "provider": "hyperbolic",
+    "model": "meta-llama/Llama-3.3-70B-Instruct",
+    "name": "Hyperbolic Llama 3.3 70B",
+    "note": "Strong model on Hyperbolic.",
+    "api_url": "https://api.hyperbolic.xyz/v1",
+    "signup": "app.hyperbolic.xyz",
+    "free": true,
+    "requires_key": true
+  },
+  {
+    "provider": "hyperbolic",
+    "model": "meta-llama/Llama-3.1-405B-FP8",
+    "name": "Hyperbolic Llama 3.1 405B",
+    "note": "Largest open model.",
+    "api_url": "https://api.hyperbolic.xyz/v1",
+    "signup": "app.hyperbolic.xyz",
+    "free": true,
+    "requires_key": true
+  },
+  {
+    "provider": "hyperbolic",
+    "model": "deepseek-ai/DeepSeek-V3",
+    "name": "Hyperbolic DeepSeek V3",
+    "note": "DeepSeek V3 on Hyperbolic.",
+    "api_url": "https://api.hyperbolic.xyz/v1",
+    "signup": "app.hyperbolic.xyz",
+    "free": true,
+    "requires_key": true
+  },
+  {
+    "provider": "hyperbolic",
+    "model": "Qwen/Qwen2.5-72B-Instruct",
+    "name": "Hyperbolic Qwen 2.5 72B",
+    "note": "Large Qwen.",
+    "api_url": "https://api.hyperbolic.xyz/v1",
+    "signup": "app.hyperbolic.xyz",
+    "free": true,
+    "requires_key": true
+  },
+  {
+    "provider": "hyperbolic",
+    "model": "deepseek-ai/DeepSeek-R1",
+    "name": "Hyperbolic DeepSeek R1",
+    "note": "Reasoning model.",
+    "api_url": "https://api.hyperbolic.xyz/v1",
+    "signup": "app.hyperbolic.xyz",
+    "free": true,
+    "requires_key": true
+  },
+  {
+    "provider": "cloudflare",
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "name": "Cloudflare Llama 3.3 70B FP8",
+    "note": "Fast quantized model on CF edge.",
+    "api_url": "https://api.cloudflare.com/client/v4/accounts/{account_id}/ai/v1",
+    "signup": "dash.cloudflare.com",
+    "free": true,
+    "requires_key": true
+  },
+  {
+    "provider": "cloudflare",
+    "model": "@cf/meta/llama-3.2-11b-vision-instruct",
+    "name": "Cloudflare Llama 3.2 11B Vision",
+    "note": "Multimodal on CF.",
+    "api_url": "https://api.cloudflare.com/client/v4/accounts/{account_id}/ai/v1",
+    "signup": "dash.cloudflare.com",
+    "free": true,
+    "requires_key": true
+  },
+  {
+    "provider": "cloudflare",
+    "model": "@cf/google/gemma-7b-it",
+    "name": "Cloudflare Gemma 7B",
+    "note": "Gemma on CF edge.",
+    "api_url": "https://api.cloudflare.com/client/v4/accounts/{account_id}/ai/v1",
+    "signup": "dash.cloudflare.com",
+    "free": true,
+    "requires_key": true
+  },
+  {
+    "provider": "cloudflare",
+    "model": "@cf/mistral/mistral-7b-instruct-v0.2-lora",
+    "name": "Cloudflare Mistral 7B LoRA",
+    "note": "Mistral with LoRA on CF.",
+    "api_url": "https://api.cloudflare.com/client/v4/accounts/{account_id}/ai/v1",
+    "signup": "dash.cloudflare.com",
+    "free": true,
+    "requires_key": true
+  },
+  {
+    "provider": "cloudflare",
+    "model": "@cf/qwen/qwen1.5-7b-chat-awq",
+    "name": "Cloudflare Qwen 1.5 7B",
+    "note": "Qwen on CF edge.",
+    "api_url": "https://api.cloudflare.com/client/v4/accounts/{account_id}/ai/v1",
+    "signup": "dash.cloudflare.com",
+    "free": true,
+    "requires_key": true
+  },
+  {
+    "provider": "cloudflare",
+    "model": "@cf/microsoft/phi-2",
+    "name": "Cloudflare Phi-2",
+    "note": "Phi-2 on edge.",
+    "api_url": "https://api.cloudflare.com/client/v4/accounts/{account_id}/ai/v1",
+    "signup": "dash.cloudflare.com",
+    "free": true,
+    "requires_key": true
+  },
+  {
+    "provider": "cloudflare",
+    "model": "@hf/thebloke/deepseek-coder-6.7b-instruct-awq",
+    "name": "Cloudflare DeepSeek Coder 6.7B",
+    "note": "Code model on CF.",
+    "api_url": "https://api.cloudflare.com/client/v4/accounts/{account_id}/ai/v1",
+    "signup": "dash.cloudflare.com",
+    "free": true,
+    "requires_key": true
+  },
+  {
+    "provider": "github",
+    "model": "meta-llama-3.3-70b-instruct",
+    "name": "GitHub Models \u2014 Llama 3.3 70B",
+    "note": "Via GitHub Marketplace.",
+    "api_url": "https://models.inference.ai.azure.com",
+    "signup": "github.com/marketplace/models",
+    "free": true,
+    "requires_key": true
+  },
+  {
+    "provider": "github",
+    "model": "gpt-4o-mini",
+    "name": "GitHub Models \u2014 GPT-4o Mini",
+    "note": "OpenAI GPT-4o Mini via GitHub.",
+    "api_url": "https://models.inference.ai.azure.com",
+    "signup": "github.com/marketplace/models",
+    "free": true,
+    "requires_key": true
+  },
+  {
+    "provider": "github",
+    "model": "gpt-4o",
+    "name": "GitHub Models \u2014 GPT-4o",
+    "note": "OpenAI GPT-4o via GitHub.",
+    "api_url": "https://models.inference.ai.azure.com",
+    "signup": "github.com/marketplace/models",
+    "free": true,
+    "requires_key": true
+  },
+  {
+    "provider": "github",
+    "model": "Phi-3.5-mini-instruct",
+    "name": "GitHub Models \u2014 Phi-3.5 Mini",
+    "note": "Microsoft Phi-3.5 Mini.",
+    "api_url": "https://models.inference.ai.azure.com",
+    "signup": "github.com/marketplace/models",
+    "free": true,
+    "requires_key": true
+  },
+  {
+    "provider": "github",
+    "model": "Phi-4",
+    "name": "GitHub Models \u2014 Phi-4",
+    "note": "Microsoft Phi-4. Strong reasoning.",
+    "api_url": "https://models.inference.ai.azure.com",
+    "signup": "github.com/marketplace/models",
+    "free": true,
+    "requires_key": true
+  },
+  {
+    "provider": "github",
+    "model": "Phi-4-mini",
+    "name": "GitHub Models \u2014 Phi-4 Mini",
+    "note": "Smaller Phi-4.",
+    "api_url": "https://models.inference.ai.azure.com",
+    "signup": "github.com/marketplace/models",
+    "free": true,
+    "requires_key": true
+  },
+  {
+    "provider": "github",
+    "model": "mistral-large-2411",
+    "name": "GitHub Models \u2014 Mistral Large",
+    "note": "Mistral Large via GitHub.",
+    "api_url": "https://models.inference.ai.azure.com",
+    "signup": "github.com/marketplace/models",
+    "free": true,
+    "requires_key": true
+  },
+  {
+    "provider": "github",
+    "model": "mistral-nemo",
+    "name": "GitHub Models \u2014 Mistral Nemo",
+    "note": "Mistral Nemo via GitHub.",
+    "api_url": "https://models.inference.ai.azure.com",
+    "signup": "github.com/marketplace/models",
+    "free": true,
+    "requires_key": true
+  },
+  {
+    "provider": "github",
+    "model": "cohere-command-r",
+    "name": "GitHub Models \u2014 Cohere Command R",
+    "note": "Cohere via GitHub.",
+    "api_url": "https://models.inference.ai.azure.com",
+    "signup": "github.com/marketplace/models",
+    "free": true,
+    "requires_key": true
+  },
+  {
+    "provider": "github",
+    "model": "ai21-jamba-1.5-large",
+    "name": "GitHub Models \u2014 AI21 Jamba 1.5",
+    "note": "AI21 model.",
+    "api_url": "https://models.inference.ai.azure.com",
+    "signup": "github.com/marketplace/models",
+    "free": true,
+    "requires_key": true
+  },
+  {
+    "provider": "huggingface",
+    "model": "HuggingFaceH4/zephyr-7b-beta",
+    "name": "HF Zephyr 7B Beta",
+    "note": "Fine-tuned Mistral 7B.",
+    "api_url": "https://api-inference.huggingface.co/models/HuggingFaceH4/zephyr-7b-beta/v1",
+    "signup": "huggingface.co",
+    "free": true,
+    "requires_key": true
+  },
+  {
+    "provider": "huggingface",
+    "model": "mistralai/Mistral-7B-Instruct-v0.3",
+    "name": "HF Mistral 7B v0.3",
+    "note": "Mistral 7B via HF.",
+    "api_url": "https://api-inference.huggingface.co/models/mistralai/Mistral-7B-Instruct-v0.3/v1",
+    "signup": "huggingface.co",
+    "free": true,
+    "requires_key": true
+  },
+  {
+    "provider": "huggingface",
+    "model": "meta-llama/Meta-Llama-3-8B-Instruct",
+    "name": "HF Llama 3 8B Instruct",
+    "note": "Llama 3 8B via HF.",
+    "api_url": "https://api-inference.huggingface.co/models/meta-llama/Meta-Llama-3-8B-Instruct/v1",
+    "signup": "huggingface.co",
+    "free": true,
+    "requires_key": true
+  },
+  {
+    "provider": "huggingface",
+    "model": "microsoft/Phi-3.5-mini-instruct",
+    "name": "HF Phi-3.5 Mini",
+    "note": "Phi-3.5 via HF.",
+    "api_url": "https://api-inference.huggingface.co/models/microsoft/Phi-3.5-mini-instruct/v1",
+    "signup": "huggingface.co",
+    "free": true,
+    "requires_key": true
+  },
+  {
+    "provider": "huggingface",
+    "model": "Qwen/Qwen2.5-7B-Instruct",
+    "name": "HF Qwen 2.5 7B",
+    "note": "Qwen 2.5 via HF.",
+    "api_url": "https://api-inference.huggingface.co/models/Qwen/Qwen2.5-7B-Instruct/v1",
+    "signup": "huggingface.co",
+    "free": true,
+    "requires_key": true
+  },
+  {
+    "provider": "huggingface",
+    "model": "google/gemma-2-9b-it",
+    "name": "HF Gemma 2 9B",
+    "note": "Gemma 2 via HF.",
+    "api_url": "https://api-inference.huggingface.co/models/google/gemma-2-9b-it/v1",
+    "signup": "huggingface.co",
+    "free": true,
+    "requires_key": true
+  },
+  {
+    "provider": "huggingface",
+    "model": "NousResearch/Nous-Hermes-2-Mistral-7B-DPO",
+    "name": "HF Nous Hermes 2 Mistral",
+    "note": "DPO fine-tuned Mistral.",
+    "api_url": "https://api-inference.huggingface.co/models/NousResearch/Nous-Hermes-2-Mistral-7B-DPO/v1",
+    "signup": "huggingface.co",
+    "free": true,
+    "requires_key": true
+  },
+  {
+    "provider": "huggingface",
+    "model": "teknium/OpenHermes-2.5-Mistral-7B",
+    "name": "HF OpenHermes 2.5 Mistral",
+    "note": "Popular instruction-tuned model.",
+    "api_url": "https://api-inference.huggingface.co/models/teknium/OpenHermes-2.5-Mistral-7B/v1",
+    "signup": "huggingface.co",
+    "free": true,
+    "requires_key": true
+  },
+  {
+    "provider": "huggingface",
+    "model": "upstage/SOLAR-10.7B-Instruct-v1.0",
+    "name": "HF SOLAR 10.7B",
+    "note": "Strong Upstage model.",
+    "api_url": "https://api-inference.huggingface.co/models/upstage/SOLAR-10.7B-Instruct-v1.0/v1",
+    "signup": "huggingface.co",
+    "free": true,
+    "requires_key": true
+  },
+  {
+    "provider": "ollama",
+    "model": "llama3.2",
+    "name": "Ollama \u2014 Llama 3.2 3B",
+    "note": "Tiny fast local model.",
+    "api_url": "http://localhost:11434",
+    "signup": "ollama.com",
+    "free": true,
+    "requires_key": false
+  },
+  {
+    "provider": "ollama",
+    "model": "llama3.2:1b",
+    "name": "Ollama \u2014 Llama 3.2 1B",
+    "note": "Smallest Llama.",
+    "api_url": "http://localhost:11434",
+    "signup": "ollama.com",
+    "free": true,
+    "requires_key": false
+  },
+  {
+    "provider": "ollama",
+    "model": "llama3.1",
+    "name": "Ollama \u2014 Llama 3.1 8B",
+    "note": "8B local model.",
+    "api_url": "http://localhost:11434",
+    "signup": "ollama.com",
+    "free": true,
+    "requires_key": false
+  },
+  {
+    "provider": "ollama",
+    "model": "llama3.1:70b",
+    "name": "Ollama \u2014 Llama 3.1 70B",
+    "note": "Large local (needs 48GB RAM).",
+    "api_url": "http://localhost:11434",
+    "signup": "ollama.com",
+    "free": true,
+    "requires_key": false
+  },
+  {
+    "provider": "ollama",
+    "model": "mistral",
+    "name": "Ollama \u2014 Mistral 7B",
+    "note": "Classic Mistral local.",
+    "api_url": "http://localhost:11434",
+    "signup": "ollama.com",
+    "free": true,
+    "requires_key": false
+  },
+  {
+    "provider": "ollama",
+    "model": "mistral-nemo",
+    "name": "Ollama \u2014 Mistral Nemo",
+    "note": "12B context-optimized local.",
+    "api_url": "http://localhost:11434",
+    "signup": "ollama.com",
+    "free": true,
+    "requires_key": false
+  },
+  {
+    "provider": "ollama",
+    "model": "gemma3:4b",
+    "name": "Ollama \u2014 Gemma 3 4B",
+    "note": "Google Gemma 3 local.",
+    "api_url": "http://localhost:11434",
+    "signup": "ollama.com",
+    "free": true,
+    "requires_key": false
+  },
+  {
+    "provider": "ollama",
+    "model": "gemma3:12b",
+    "name": "Ollama \u2014 Gemma 3 12B",
+    "note": "Larger Gemma 3 local.",
+    "api_url": "http://localhost:11434",
+    "signup": "ollama.com",
+    "free": true,
+    "requires_key": false
+  },
+  {
+    "provider": "ollama",
+    "model": "qwen2.5:7b",
+    "name": "Ollama \u2014 Qwen 2.5 7B",
+    "note": "Qwen 2.5 local.",
+    "api_url": "http://localhost:11434",
+    "signup": "ollama.com",
+    "free": true,
+    "requires_key": false
+  },
+  {
+    "provider": "ollama",
+    "model": "qwen2.5:32b",
+    "name": "Ollama \u2014 Qwen 2.5 32B",
+    "note": "Large Qwen local (needs 20GB RAM).",
+    "api_url": "http://localhost:11434",
+    "signup": "ollama.com",
+    "free": true,
+    "requires_key": false
+  },
+  {
+    "provider": "ollama",
+    "model": "qwen2.5:72b",
+    "name": "Ollama \u2014 Qwen 2.5 72B",
+    "note": "Huge Qwen local (needs 48GB RAM).",
+    "api_url": "http://localhost:11434",
+    "signup": "ollama.com",
+    "free": true,
+    "requires_key": false
+  },
+  {
+    "provider": "ollama",
+    "model": "phi3",
+    "name": "Ollama \u2014 Phi-3 Mini",
+    "note": "Microsoft Phi-3 local.",
+    "api_url": "http://localhost:11434",
+    "signup": "ollama.com",
+    "free": true,
+    "requires_key": false
+  },
+  {
+    "provider": "ollama",
+    "model": "phi3:medium",
+    "name": "Ollama \u2014 Phi-3 Medium",
+    "note": "Larger Phi-3 local.",
+    "api_url": "http://localhost:11434",
+    "signup": "ollama.com",
+    "free": true,
+    "requires_key": false
+  },
+  {
+    "provider": "ollama",
+    "model": "phi4",
+    "name": "Ollama \u2014 Phi-4 (14B)",
+    "note": "Latest Phi-4 local.",
+    "api_url": "http://localhost:11434",
+    "signup": "ollama.com",
+    "free": true,
+    "requires_key": false
+  },
+  {
+    "provider": "ollama",
+    "model": "phi4-mini",
+    "name": "Ollama \u2014 Phi-4 Mini",
+    "note": "Smaller Phi-4.",
+    "api_url": "http://localhost:11434",
+    "signup": "ollama.com",
+    "free": true,
+    "requires_key": false
+  },
+  {
+    "provider": "ollama",
+    "model": "deepseek-r1",
+    "name": "Ollama \u2014 DeepSeek R1 7B",
+    "note": "Reasoning model local.",
+    "api_url": "http://localhost:11434",
+    "signup": "ollama.com",
+    "free": true,
+    "requires_key": false
+  },
+  {
+    "provider": "ollama",
+    "model": "deepseek-r1:14b",
+    "name": "Ollama \u2014 DeepSeek R1 14B",
+    "note": "Larger local reasoner.",
+    "api_url": "http://localhost:11434",
+    "signup": "ollama.com",
+    "free": true,
+    "requires_key": false
+  },
+  {
+    "provider": "ollama",
+    "model": "deepseek-r1:32b",
+    "name": "Ollama \u2014 DeepSeek R1 32B",
+    "note": "Bigger local reasoner.",
+    "api_url": "http://localhost:11434",
+    "signup": "ollama.com",
+    "free": true,
+    "requires_key": false
+  },
+  {
+    "provider": "ollama",
+    "model": "deepseek-v3",
+    "name": "Ollama \u2014 DeepSeek V3",
+    "note": "DeepSeek V3 local (huge).",
+    "api_url": "http://localhost:11434",
+    "signup": "ollama.com",
+    "free": true,
+    "requires_key": false
+  },
+  {
+    "provider": "ollama",
+    "model": "codellama",
+    "name": "Ollama \u2014 Code Llama 7B",
+    "note": "Code-focused local model.",
+    "api_url": "http://localhost:11434",
+    "signup": "ollama.com",
+    "free": true,
+    "requires_key": false
+  },
+  {
+    "provider": "ollama",
+    "model": "solar",
+    "name": "Ollama \u2014 SOLAR 10.7B",
+    "note": "Upstage SOLAR local.",
+    "api_url": "http://localhost:11434",
+    "signup": "ollama.com",
+    "free": true,
+    "requires_key": false
+  },
+  {
+    "provider": "ollama",
+    "model": "llava",
+    "name": "Ollama \u2014 LLaVA 7B",
+    "note": "Multimodal local model.",
+    "api_url": "http://localhost:11434",
+    "signup": "ollama.com",
+    "free": true,
+    "requires_key": false
+  },
+  {
+    "provider": "ollama",
+    "model": "llava:13b",
+    "name": "Ollama \u2014 LLaVA 13B",
+    "note": "Larger multimodal local.",
+    "api_url": "http://localhost:11434",
+    "signup": "ollama.com",
+    "free": true,
+    "requires_key": false
+  },
+  {
+    "provider": "ollama",
+    "model": "openhermes",
+    "name": "Ollama \u2014 OpenHermes",
+    "note": "Fine-tuned Mistral local.",
+    "api_url": "http://localhost:11434",
+    "signup": "ollama.com",
+    "free": true,
+    "requires_key": false
+  },
+  {
+    "provider": "ollama",
+    "model": "nous-hermes2",
+    "name": "Ollama \u2014 Nous Hermes 2",
+    "note": "Nous Research local.",
+    "api_url": "http://localhost:11434",
+    "signup": "ollama.com",
+    "free": true,
+    "requires_key": false
+  },
+  {
+    "provider": "ollama",
+    "model": "neural-chat",
+    "name": "Ollama \u2014 Neural Chat 7B",
+    "note": "Intel fine-tuned chat model.",
+    "api_url": "http://localhost:11434",
+    "signup": "ollama.com",
+    "free": true,
+    "requires_key": false
+  },
+  {
+    "provider": "ollama",
+    "model": "starling-lm",
+    "name": "Ollama \u2014 Starling LM 7B",
+    "note": "RLHF fine-tuned model.",
+    "api_url": "http://localhost:11434",
+    "signup": "ollama.com",
+    "free": true,
+    "requires_key": false
+  },
+  {
+    "provider": "ollama",
+    "model": "orca-mini",
+    "name": "Ollama \u2014 Orca Mini",
+    "note": "Small reasoning model.",
+    "api_url": "http://localhost:11434",
+    "signup": "ollama.com",
+    "free": true,
+    "requires_key": false
+  },
+  {
+    "provider": "ollama",
+    "model": "vicuna",
+    "name": "Ollama \u2014 Vicuna 7B",
+    "note": "Original Vicuna.",
+    "api_url": "http://localhost:11434",
+    "signup": "ollama.com",
+    "free": true,
+    "requires_key": false
+  },
+  {
+    "provider": "ollama",
+    "model": "falcon",
+    "name": "Ollama \u2014 Falcon 7B",
+    "note": "TII Falcon model.",
+    "api_url": "http://localhost:11434",
+    "signup": "ollama.com",
+    "free": true,
+    "requires_key": false
+  },
+  {
+    "provider": "openai",
+    "model": "gpt-4o-mini",
+    "name": "OpenAI GPT-4o Mini",
+    "note": "Best value paid model.",
+    "api_url": "https://api.openai.com/v1",
+    "signup": "platform.openai.com",
+    "free": false,
+    "requires_key": true
+  },
+  {
+    "provider": "openai",
+    "model": "gpt-4o",
+    "name": "OpenAI GPT-4o",
+    "note": "Flagship model.",
+    "api_url": "https://api.openai.com/v1",
+    "signup": "platform.openai.com",
+    "free": false,
+    "requires_key": true
+  },
+  {
+    "provider": "openai",
+    "model": "gpt-4-turbo",
+    "name": "OpenAI GPT-4 Turbo",
+    "note": "128K ctx GPT-4.",
+    "api_url": "https://api.openai.com/v1",
+    "signup": "platform.openai.com",
+    "free": false,
+    "requires_key": true
+  },
+  {
+    "provider": "openai",
+    "model": "gpt-3.5-turbo",
+    "name": "OpenAI GPT-3.5 Turbo",
+    "note": "Fast cheap model.",
+    "api_url": "https://api.openai.com/v1",
+    "signup": "platform.openai.com",
+    "free": false,
+    "requires_key": true
+  },
+  {
+    "provider": "openai",
+    "model": "o1-mini",
+    "name": "OpenAI o1-Mini",
+    "note": "Reasoning model.",
+    "api_url": "https://api.openai.com/v1",
+    "signup": "platform.openai.com",
+    "free": false,
+    "requires_key": true
+  },
+  {
+    "provider": "openai",
+    "model": "o3-mini",
+    "name": "OpenAI o3-Mini",
+    "note": "Latest reasoning model.",
+    "api_url": "https://api.openai.com/v1",
+    "signup": "platform.openai.com",
+    "free": false,
+    "requires_key": true
+  },
+  {
+    "provider": "anthropic",
+    "model": "claude-3-5-haiku-20241022",
+    "name": "Anthropic Claude 3.5 Haiku",
+    "note": "Fastest Claude. Best value.",
+    "api_url": "https://api.anthropic.com/v1",
+    "signup": "console.anthropic.com",
+    "free": false,
+    "requires_key": true
+  },
+  {
+    "provider": "anthropic",
+    "model": "claude-3-5-sonnet-20241022",
+    "name": "Anthropic Claude 3.5 Sonnet",
+    "note": "Strong reasoning.",
+    "api_url": "https://api.anthropic.com/v1",
+    "signup": "console.anthropic.com",
+    "free": false,
+    "requires_key": true
+  },
+  {
+    "provider": "anthropic",
+    "model": "claude-3-opus-20240229",
+    "name": "Anthropic Claude 3 Opus",
+    "note": "Most powerful Claude.",
+    "api_url": "https://api.anthropic.com/v1",
+    "signup": "console.anthropic.com",
+    "free": false,
+    "requires_key": true
+  },
+  {
+    "provider": "anthropic",
+    "model": "claude-3-haiku-20240307",
+    "name": "Anthropic Claude 3 Haiku",
+    "note": "Fast older Claude.",
+    "api_url": "https://api.anthropic.com/v1",
+    "signup": "console.anthropic.com",
+    "free": false,
+    "requires_key": true
+  }
+]
