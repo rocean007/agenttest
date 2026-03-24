@@ -1,0 +1,2149 @@
+{
+  "tested_at": "2026-03-24T10:09:30.388013",
+  "test_type": "ping",
+  "total": 183,
+  "stats": {
+    "OK": 0,
+    "WARN": 0,
+    "FAIL": 30,
+    "SKIP": 153
+  },
+  "working": [],
+  "failed": [
+    {
+      "provider": "ollama",
+      "model": "llama3.2",
+      "reason": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/chat (Caused by NewConnectionError(\"HTTPConnection(host='localho"
+    },
+    {
+      "provider": "ollama",
+      "model": "llama3.2:1b",
+      "reason": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/chat (Caused by NewConnectionError(\"HTTPConnection(host='localho"
+    },
+    {
+      "provider": "ollama",
+      "model": "llama3.1",
+      "reason": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/chat (Caused by NewConnectionError(\"HTTPConnection(host='localho"
+    },
+    {
+      "provider": "ollama",
+      "model": "mistral",
+      "reason": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/chat (Caused by NewConnectionError(\"HTTPConnection(host='localho"
+    },
+    {
+      "provider": "ollama",
+      "model": "llama3.1:70b",
+      "reason": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/chat (Caused by NewConnectionError(\"HTTPConnection(host='localho"
+    },
+    {
+      "provider": "ollama",
+      "model": "mistral-nemo",
+      "reason": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/chat (Caused by NewConnectionError(\"HTTPConnection(host='localho"
+    },
+    {
+      "provider": "ollama",
+      "model": "gemma3:12b",
+      "reason": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/chat (Caused by NewConnectionError(\"HTTPConnection(host='localho"
+    },
+    {
+      "provider": "ollama",
+      "model": "qwen2.5:7b",
+      "reason": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/chat (Caused by NewConnectionError(\"HTTPConnection(host='localho"
+    },
+    {
+      "provider": "ollama",
+      "model": "gemma3:4b",
+      "reason": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/chat (Caused by NewConnectionError(\"HTTPConnection(host='localho"
+    },
+    {
+      "provider": "ollama",
+      "model": "phi3",
+      "reason": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/chat (Caused by NewConnectionError(\"HTTPConnection(host='localho"
+    },
+    {
+      "provider": "ollama",
+      "model": "qwen2.5:32b",
+      "reason": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/chat (Caused by NewConnectionError(\"HTTPConnection(host='localho"
+    },
+    {
+      "provider": "ollama",
+      "model": "qwen2.5:72b",
+      "reason": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/chat (Caused by NewConnectionError(\"HTTPConnection(host='localho"
+    },
+    {
+      "provider": "ollama",
+      "model": "phi4",
+      "reason": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/chat (Caused by NewConnectionError(\"HTTPConnection(host='localho"
+    },
+    {
+      "provider": "ollama",
+      "model": "phi3:medium",
+      "reason": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/chat (Caused by NewConnectionError(\"HTTPConnection(host='localho"
+    },
+    {
+      "provider": "ollama",
+      "model": "phi4-mini",
+      "reason": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/chat (Caused by NewConnectionError(\"HTTPConnection(host='localho"
+    },
+    {
+      "provider": "ollama",
+      "model": "deepseek-r1",
+      "reason": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/chat (Caused by NewConnectionError(\"HTTPConnection(host='localho"
+    },
+    {
+      "provider": "ollama",
+      "model": "deepseek-r1:14b",
+      "reason": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/chat (Caused by NewConnectionError(\"HTTPConnection(host='localho"
+    },
+    {
+      "provider": "ollama",
+      "model": "deepseek-r1:32b",
+      "reason": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/chat (Caused by NewConnectionError(\"HTTPConnection(host='localho"
+    },
+    {
+      "provider": "ollama",
+      "model": "deepseek-v3",
+      "reason": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/chat (Caused by NewConnectionError(\"HTTPConnection(host='localho"
+    },
+    {
+      "provider": "ollama",
+      "model": "codellama",
+      "reason": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/chat (Caused by NewConnectionError(\"HTTPConnection(host='localho"
+    },
+    {
+      "provider": "ollama",
+      "model": "llava",
+      "reason": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/chat (Caused by NewConnectionError(\"HTTPConnection(host='localho"
+    },
+    {
+      "provider": "ollama",
+      "model": "solar",
+      "reason": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/chat (Caused by NewConnectionError(\"HTTPConnection(host='localho"
+    },
+    {
+      "provider": "ollama",
+      "model": "llava:13b",
+      "reason": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/chat (Caused by NewConnectionError(\"HTTPConnection(host='localho"
+    },
+    {
+      "provider": "ollama",
+      "model": "openhermes",
+      "reason": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/chat (Caused by NewConnectionError(\"HTTPConnection(host='localho"
+    },
+    {
+      "provider": "ollama",
+      "model": "nous-hermes2",
+      "reason": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/chat (Caused by NewConnectionError(\"HTTPConnection(host='localho"
+    },
+    {
+      "provider": "ollama",
+      "model": "neural-chat",
+      "reason": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/chat (Caused by NewConnectionError(\"HTTPConnection(host='localho"
+    },
+    {
+      "provider": "ollama",
+      "model": "starling-lm",
+      "reason": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/chat (Caused by NewConnectionError(\"HTTPConnection(host='localho"
+    },
+    {
+      "provider": "ollama",
+      "model": "orca-mini",
+      "reason": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/chat (Caused by NewConnectionError(\"HTTPConnection(host='localho"
+    },
+    {
+      "provider": "ollama",
+      "model": "falcon",
+      "reason": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/chat (Caused by NewConnectionError(\"HTTPConnection(host='localho"
+    },
+    {
+      "provider": "ollama",
+      "model": "vicuna",
+      "reason": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/chat (Caused by NewConnectionError(\"HTTPConnection(host='localho"
+    }
+  ],
+  "all_results": [
+    {
+      "status": "SKIP",
+      "reason": "No API key for groq",
+      "time_ms": 0,
+      "response": null,
+      "agent": {
+        "provider": "groq",
+        "model": "llama3-70b-8192",
+        "name": "Groq \u2014 Llama 3 70B"
+      }
+    },
+    {
+      "status": "SKIP",
+      "reason": "No API key for groq",
+      "time_ms": 0,
+      "response": null,
+      "agent": {
+        "provider": "groq",
+        "model": "gemma2-9b-it",
+        "name": "Groq \u2014 Gemma 2 9B"
+      }
+    },
+    {
+      "status": "SKIP",
+      "reason": "No API key for groq",
+      "time_ms": 0,
+      "response": null,
+      "agent": {
+        "provider": "groq",
+        "model": "llama-3.1-8b-instant",
+        "name": "Groq \u2014 Llama 3.1 8B Instant"
+      }
+    },
+    {
+      "status": "SKIP",
+      "reason": "No API key for groq",
+      "time_ms": 0,
+      "response": null,
+      "agent": {
+        "provider": "groq",
+        "model": "llama-3.3-70b-versatile",
+        "name": "Groq \u2014 Llama 3.3 70B Versatile"
+      }
+    },
+    {
+      "status": "SKIP",
+      "reason": "No API key for groq",
+      "time_ms": 0,
+      "response": null,
+      "agent": {
+        "provider": "groq",
+        "model": "llama3-8b-8192",
+        "name": "Groq \u2014 Llama 3 8B"
+      }
+    },
+    {
+      "status": "SKIP",
+      "reason": "No API key for groq",
+      "time_ms": 0,
+      "response": null,
+      "agent": {
+        "provider": "groq",
+        "model": "gemma-7b-it",
+        "name": "Groq \u2014 Gemma 7B"
+      }
+    },
+    {
+      "status": "SKIP",
+      "reason": "No API key for groq",
+      "time_ms": 0,
+      "response": null,
+      "agent": {
+        "provider": "groq",
+        "model": "llama-3.2-11b-vision-preview",
+        "name": "Groq \u2014 Llama 3.2 11B Vision"
+      }
+    },
+    {
+      "status": "SKIP",
+      "reason": "No API key for groq",
+      "time_ms": 0,
+      "response": null,
+      "agent": {
+        "provider": "groq",
+        "model": "llama-3.2-3b-preview",
+        "name": "Groq \u2014 Llama 3.2 3B"
+      }
+    },
+    {
+      "status": "SKIP",
+      "reason": "No API key for groq",
+      "time_ms": 0,
+      "response": null,
+      "agent": {
+        "provider": "groq",
+        "model": "llama-3.2-1b-preview",
+        "name": "Groq \u2014 Llama 3.2 1B"
+      }
+    },
+    {
+      "status": "SKIP",
+      "reason": "No API key for groq",
+      "time_ms": 0,
+      "response": null,
+      "agent": {
+        "provider": "groq",
+        "model": "llama-guard-3-8b",
+        "name": "Groq \u2014 Llama Guard 3 8B"
+      }
+    },
+    {
+      "status": "SKIP",
+      "reason": "No API key for groq",
+      "time_ms": 0,
+      "response": null,
+      "agent": {
+        "provider": "groq",
+        "model": "deepseek-r1-distill-llama-70b",
+        "name": "Groq \u2014 DeepSeek R1 Distill Llama 70B"
+      }
+    },
+    {
+      "status": "SKIP",
+      "reason": "No API key for groq",
+      "time_ms": 0,
+      "response": null,
+      "agent": {
+        "provider": "groq",
+        "model": "qwen-qwq-32b",
+        "name": "Groq \u2014 Qwen QwQ 32B"
+      }
+    },
+    {
+      "status": "SKIP",
+      "reason": "No API key for groq",
+      "time_ms": 0,
+      "response": null,
+      "agent": {
+        "provider": "groq",
+        "model": "qwen-2.5-coder-32b",
+        "name": "Groq \u2014 Qwen 2.5 Coder 32B"
+      }
+    },
+    {
+      "status": "SKIP",
+      "reason": "No API key for groq",
+      "time_ms": 0,
+      "response": null,
+      "agent": {
+        "provider": "groq",
+        "model": "mistral-saba-24b",
+        "name": "Groq \u2014 Mistral Saba 24B"
+      }
+    },
+    {
+      "status": "SKIP",
+      "reason": "No API key for groq",
+      "time_ms": 0,
+      "response": null,
+      "agent": {
+        "provider": "groq",
+        "model": "allam-2-7b",
+        "name": "Groq \u2014 Allam 2 7B"
+      }
+    },
+    {
+      "status": "SKIP",
+      "reason": "No API key for groq",
+      "time_ms": 0,
+      "response": null,
+      "agent": {
+        "provider": "groq",
+        "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+        "name": "Groq \u2014 Llama 4 Scout 17B"
+      }
+    },
+    {
+      "status": "SKIP",
+      "reason": "No API key for groq",
+      "time_ms": 0,
+      "response": null,
+      "agent": {
+        "provider": "groq",
+        "model": "meta-llama/llama-4-maverick-17b-128e-instruct",
+        "name": "Groq \u2014 Llama 4 Maverick 17B"
+      }
+    },
+    {
+      "status": "SKIP",
+      "reason": "No API key for groq",
+      "time_ms": 0,
+      "response": null,
+      "agent": {
+        "provider": "groq",
+        "model": "mixtral-8x7b-32768",
+        "name": "Groq \u2014 Mixtral 8x7B MoE"
+      }
+    },
+    {
+      "status": "SKIP",
+      "reason": "No API key for groq",
+      "time_ms": 0,
+      "response": null,
+      "agent": {
+        "provider": "groq",
+        "model": "llama-3.2-90b-vision-preview",
+        "name": "Groq \u2014 Llama 3.2 90B Vision"
+      }
+    },
+    {
+      "status": "SKIP",
+      "reason": "No API key for openrouter",
+      "time_ms": 0,
+      "response": null,
+      "agent": {
+        "provider": "openrouter",
+        "model": "meta-llama/llama-3.3-70b-instruct:free",
+        "name": "OR \u2014 Llama 3.3 70B"
+      }
+    },
+    {
+      "status": "SKIP",
+      "reason": "No API key for openrouter",
+      "time_ms": 0,
+      "response": null,
+      "agent": {
+        "provider": "openrouter",
+        "model": "google/gemma-2-9b-it:free",
+        "name": "OR \u2014 Gemma 2 9B"
+      }
+    },
+    {
+      "status": "SKIP",
+      "reason": "No API key for openrouter",
+      "time_ms": 0,
+      "response": null,
+      "agent": {
+        "provider": "openrouter",
+        "model": "meta-llama/llama-3.2-3b-instruct:free",
+        "name": "OR \u2014 Llama 3.2 3B"
+      }
+    },
+    {
+      "status": "SKIP",
+      "reason": "No API key for openrouter",
+      "time_ms": 0,
+      "response": null,
+      "agent": {
+        "provider": "openrouter",
+        "model": "meta-llama/llama-3.1-8b-instruct:free",
+        "name": "OR \u2014 Llama 3.1 8B"
+      }
+    },
+    {
+      "status": "SKIP",
+      "reason": "No API key for openrouter",
+      "time_ms": 0,
+      "response": null,
+      "agent": {
+        "provider": "openrouter",
+        "model": "google/gemma-3-12b-it:free",
+        "name": "OR \u2014 Gemma 3 12B"
+      }
+    },
+    {
+      "status": "SKIP",
+      "reason": "No API key for openrouter",
+      "time_ms": 0,
+      "response": null,
+      "agent": {
+        "provider": "openrouter",
+        "model": "google/gemma-3-27b-it:free",
+        "name": "OR \u2014 Gemma 3 27B"
+      }
+    },
+    {
+      "status": "SKIP",
+      "reason": "No API key for openrouter",
+      "time_ms": 0,
+      "response": null,
+      "agent": {
+        "provider": "openrouter",
+        "model": "mistralai/mistral-7b-instruct:free",
+        "name": "OR \u2014 Mistral 7B"
+      }
+    },
+    {
+      "status": "SKIP",
+      "reason": "No API key for openrouter",
+      "time_ms": 0,
+      "response": null,
+      "agent": {
+        "provider": "openrouter",
+        "model": "mistralai/mistral-small-3.1-24b-instruct:free",
+        "name": "OR \u2014 Mistral Small 3.1 24B"
+      }
+    },
+    {
+      "status": "SKIP",
+      "reason": "No API key for openrouter",
+      "time_ms": 0,
+      "response": null,
+      "agent": {
+        "provider": "openrouter",
+        "model": "qwen/qwen-2.5-7b-instruct:free",
+        "name": "OR \u2014 Qwen 2.5 7B"
+      }
+    },
+    {
+      "status": "SKIP",
+      "reason": "No API key for openrouter",
+      "time_ms": 0,
+      "response": null,
+      "agent": {
+        "provider": "openrouter",
+        "model": "qwen/qwen-2.5-72b-instruct:free",
+        "name": "OR \u2014 Qwen 2.5 72B"
+      }
+    },
+    {
+      "status": "SKIP",
+      "reason": "No API key for openrouter",
+      "time_ms": 0,
+      "response": null,
+      "agent": {
+        "provider": "openrouter",
+        "model": "qwen/qwen3-8b:free",
+        "name": "OR \u2014 Qwen3 8B"
+      }
+    },
+    {
+      "status": "SKIP",
+      "reason": "No API key for openrouter",
+      "time_ms": 0,
+      "response": null,
+      "agent": {
+        "provider": "openrouter",
+        "model": "qwen/qwen3-14b:free",
+        "name": "OR \u2014 Qwen3 14B"
+      }
+    },
+    {
+      "status": "SKIP",
+      "reason": "No API key for openrouter",
+      "time_ms": 0,
+      "response": null,
+      "agent": {
+        "provider": "openrouter",
+        "model": "qwen/qwen3-32b:free",
+        "name": "OR \u2014 Qwen3 32B"
+      }
+    },
+    {
+      "status": "SKIP",
+      "reason": "No API key for openrouter",
+      "time_ms": 0,
+      "response": null,
+      "agent": {
+        "provider": "openrouter",
+        "model": "deepseek/deepseek-r1:free",
+        "name": "OR \u2014 DeepSeek R1"
+      }
+    },
+    {
+      "status": "SKIP",
+      "reason": "No API key for openrouter",
+      "time_ms": 0,
+      "response": null,
+      "agent": {
+        "provider": "openrouter",
+        "model": "deepseek/deepseek-chat-v3-0324:free",
+        "name": "OR \u2014 DeepSeek V3 March"
+      }
+    },
+    {
+      "status": "SKIP",
+      "reason": "No API key for openrouter",
+      "time_ms": 0,
+      "response": null,
+      "agent": {
+        "provider": "openrouter",
+        "model": "deepseek/deepseek-v3:free",
+        "name": "OR \u2014 DeepSeek V3"
+      }
+    },
+    {
+      "status": "SKIP",
+      "reason": "No API key for openrouter",
+      "time_ms": 0,
+      "response": null,
+      "agent": {
+        "provider": "openrouter",
+        "model": "deepseek/deepseek-r1-distill-llama-70b:free",
+        "name": "OR \u2014 DeepSeek R1 Distill"
+      }
+    },
+    {
+      "status": "SKIP",
+      "reason": "No API key for openrouter",
+      "time_ms": 0,
+      "response": null,
+      "agent": {
+        "provider": "openrouter",
+        "model": "microsoft/phi-3-mini-128k-instruct:free",
+        "name": "OR \u2014 Phi-3 Mini 128K"
+      }
+    },
+    {
+      "status": "SKIP",
+      "reason": "No API key for openrouter",
+      "time_ms": 0,
+      "response": null,
+      "agent": {
+        "provider": "openrouter",
+        "model": "microsoft/phi-3-medium-128k-instruct:free",
+        "name": "OR \u2014 Phi-3 Medium 128K"
+      }
+    },
+    {
+      "status": "SKIP",
+      "reason": "No API key for openrouter",
+      "time_ms": 0,
+      "response": null,
+      "agent": {
+        "provider": "openrouter",
+        "model": "microsoft/phi-3.5-mini-instruct:free",
+        "name": "OR \u2014 Phi-3.5 Mini"
+      }
+    },
+    {
+      "status": "SKIP",
+      "reason": "No API key for openrouter",
+      "time_ms": 0,
+      "response": null,
+      "agent": {
+        "provider": "openrouter",
+        "model": "nvidia/llama-3.1-nemotron-70b-instruct:free",
+        "name": "OR \u2014 Nemotron 70B"
+      }
+    },
+    {
+      "status": "SKIP",
+      "reason": "No API key for openrouter",
+      "time_ms": 0,
+      "response": null,
+      "agent": {
+        "provider": "openrouter",
+        "model": "nvidia/llama-3.3-nemotron-super-49b-v1:free",
+        "name": "OR \u2014 Nemotron Super 49B"
+      }
+    },
+    {
+      "status": "SKIP",
+      "reason": "No API key for openrouter",
+      "time_ms": 0,
+      "response": null,
+      "agent": {
+        "provider": "openrouter",
+        "model": "arcee-ai/arcee-blitz:free",
+        "name": "OR \u2014 Arcee Blitz"
+      }
+    },
+    {
+      "status": "SKIP",
+      "reason": "No API key for openrouter",
+      "time_ms": 0,
+      "response": null,
+      "agent": {
+        "provider": "openrouter",
+        "model": "arcee-ai/trinity-large-preview:free",
+        "name": "OR \u2014 Arcee Trinity Large"
+      }
+    },
+    {
+      "status": "SKIP",
+      "reason": "No API key for openrouter",
+      "time_ms": 0,
+      "response": null,
+      "agent": {
+        "provider": "openrouter",
+        "model": "arcee-ai/trinity-mini:free",
+        "name": "OR \u2014 Arcee Trinity Mini"
+      }
+    },
+    {
+      "status": "SKIP",
+      "reason": "No API key for openrouter",
+      "time_ms": 0,
+      "response": null,
+      "agent": {
+        "provider": "openrouter",
+        "model": "cognitivecomputations/dolphin-mistral-24b-venice-edition:free",
+        "name": "OR \u2014 Dolphin Mistral 24B"
+      }
+    },
+    {
+      "status": "SKIP",
+      "reason": "No API key for openrouter",
+      "time_ms": 0,
+      "response": null,
+      "agent": {
+        "provider": "openrouter",
+        "model": "huggingfaceh4/zephyr-7b-beta:free",
+        "name": "OR \u2014 Zephyr 7B Beta"
+      }
+    },
+    {
+      "status": "SKIP",
+      "reason": "No API key for openrouter",
+      "time_ms": 0,
+      "response": null,
+      "agent": {
+        "provider": "openrouter",
+        "model": "openchat/openchat-7b:free",
+        "name": "OR \u2014 OpenChat 7B"
+      }
+    },
+    {
+      "status": "SKIP",
+      "reason": "No API key for openrouter",
+      "time_ms": 0,
+      "response": null,
+      "agent": {
+        "provider": "openrouter",
+        "model": "nousresearch/nous-capybara-7b:free",
+        "name": "OR \u2014 Nous Capybara 7B"
+      }
+    },
+    {
+      "status": "SKIP",
+      "reason": "No API key for openrouter",
+      "time_ms": 0,
+      "response": null,
+      "agent": {
+        "provider": "openrouter",
+        "model": "gryphe/mythomist-7b:free",
+        "name": "OR \u2014 MythoMist 7B"
+      }
+    },
+    {
+      "status": "SKIP",
+      "reason": "No API key for openrouter",
+      "time_ms": 0,
+      "response": null,
+      "agent": {
+        "provider": "openrouter",
+        "model": "undi95/toppy-m-7b:free",
+        "name": "OR \u2014 Toppy M 7B"
+      }
+    },
+    {
+      "status": "SKIP",
+      "reason": "No API key for openrouter",
+      "time_ms": 0,
+      "response": null,
+      "agent": {
+        "provider": "openrouter",
+        "model": "openrouter/free",
+        "name": "OR \u2014 Free Router"
+      }
+    },
+    {
+      "status": "SKIP",
+      "reason": "No API key for openrouter",
+      "time_ms": 0,
+      "response": null,
+      "agent": {
+        "provider": "openrouter",
+        "model": "google/gemma-3-4b-it:free",
+        "name": "OR \u2014 Gemma 3 4B"
+      }
+    },
+    {
+      "status": "SKIP",
+      "reason": "No API key for openrouter",
+      "time_ms": 0,
+      "response": null,
+      "agent": {
+        "provider": "openrouter",
+        "model": "meta-llama/llama-3.2-11b-vision-instruct:free",
+        "name": "OR \u2014 Llama 3.2 11B Vision"
+      }
+    },
+    {
+      "status": "SKIP",
+      "reason": "No API key for google",
+      "time_ms": 0,
+      "response": null,
+      "agent": {
+        "provider": "google",
+        "model": "gemini-2.0-flash-exp",
+        "name": "Google Gemini 2.0 Flash Exp"
+      }
+    },
+    {
+      "status": "SKIP",
+      "reason": "No API key for google",
+      "time_ms": 0,
+      "response": null,
+      "agent": {
+        "provider": "google",
+        "model": "gemini-2.5-pro-exp-03-25",
+        "name": "Google Gemini 2.5 Pro Exp"
+      }
+    },
+    {
+      "status": "SKIP",
+      "reason": "No API key for google",
+      "time_ms": 0,
+      "response": null,
+      "agent": {
+        "provider": "google",
+        "model": "gemini-1.5-flash-8b",
+        "name": "Google Gemini 1.5 Flash 8B"
+      }
+    },
+    {
+      "status": "SKIP",
+      "reason": "No API key for google",
+      "time_ms": 0,
+      "response": null,
+      "agent": {
+        "provider": "google",
+        "model": "gemini-1.5-flash",
+        "name": "Google Gemini 1.5 Flash"
+      }
+    },
+    {
+      "status": "SKIP",
+      "reason": "No API key for google",
+      "time_ms": 0,
+      "response": null,
+      "agent": {
+        "provider": "google",
+        "model": "gemini-2.5-flash-preview-05-20",
+        "name": "Google Gemini 2.5 Flash"
+      }
+    },
+    {
+      "status": "SKIP",
+      "reason": "No API key for google",
+      "time_ms": 0,
+      "response": null,
+      "agent": {
+        "provider": "google",
+        "model": "gemini-2.0-flash",
+        "name": "Google Gemini 2.0 Flash"
+      }
+    },
+    {
+      "status": "SKIP",
+      "reason": "No API key for google",
+      "time_ms": 0,
+      "response": null,
+      "agent": {
+        "provider": "google",
+        "model": "gemini-1.5-pro",
+        "name": "Google Gemini 1.5 Pro"
+      }
+    },
+    {
+      "status": "SKIP",
+      "reason": "No API key for google",
+      "time_ms": 0,
+      "response": null,
+      "agent": {
+        "provider": "google",
+        "model": "gemma-3n-e4b-it",
+        "name": "Google Gemma 3n E4B"
+      }
+    },
+    {
+      "status": "SKIP",
+      "reason": "No API key for google",
+      "time_ms": 0,
+      "response": null,
+      "agent": {
+        "provider": "google",
+        "model": "gemma-3-12b-it",
+        "name": "Google Gemma 3 12B"
+      }
+    },
+    {
+      "status": "SKIP",
+      "reason": "No API key for google",
+      "time_ms": 0,
+      "response": null,
+      "agent": {
+        "provider": "google",
+        "model": "gemma-3-27b-it",
+        "name": "Google Gemma 3 27B"
+      }
+    },
+    {
+      "status": "SKIP",
+      "reason": "No API key for mistral",
+      "time_ms": 0,
+      "response": null,
+      "agent": {
+        "provider": "mistral",
+        "model": "codestral-mamba",
+        "name": "Codestral Mamba"
+      }
+    },
+    {
+      "status": "SKIP",
+      "reason": "No API key for mistral",
+      "time_ms": 0,
+      "response": null,
+      "agent": {
+        "provider": "mistral",
+        "model": "mistral-small-latest",
+        "name": "Mistral Small (latest)"
+      }
+    },
+    {
+      "status": "SKIP",
+      "reason": "No API key for mistral",
+      "time_ms": 0,
+      "response": null,
+      "agent": {
+        "provider": "mistral",
+        "model": "open-mistral-7b",
+        "name": "Mistral 7B (open)"
+      }
+    },
+    {
+      "status": "SKIP",
+      "reason": "No API key for mistral",
+      "time_ms": 0,
+      "response": null,
+      "agent": {
+        "provider": "mistral",
+        "model": "open-mixtral-8x22b",
+        "name": "Mixtral 8x22B (open)"
+      }
+    },
+    {
+      "status": "SKIP",
+      "reason": "No API key for mistral",
+      "time_ms": 0,
+      "response": null,
+      "agent": {
+        "provider": "mistral",
+        "model": "open-mixtral-8x7b",
+        "name": "Mixtral 8x7B (open)"
+      }
+    },
+    {
+      "status": "SKIP",
+      "reason": "No API key for mistral",
+      "time_ms": 0,
+      "response": null,
+      "agent": {
+        "provider": "mistral",
+        "model": "open-mistral-nemo",
+        "name": "Mistral Nemo (open)"
+      }
+    },
+    {
+      "status": "SKIP",
+      "reason": "No API key for cerebras",
+      "time_ms": 0,
+      "response": null,
+      "agent": {
+        "provider": "cerebras",
+        "model": "llama3.1-8b",
+        "name": "Cerebras Llama 3.1 8B"
+      }
+    },
+    {
+      "status": "SKIP",
+      "reason": "No API key for cerebras",
+      "time_ms": 0,
+      "response": null,
+      "agent": {
+        "provider": "cerebras",
+        "model": "llama-3.3-70b",
+        "name": "Cerebras Llama 3.3 70B"
+      }
+    },
+    {
+      "status": "SKIP",
+      "reason": "No API key for cerebras",
+      "time_ms": 0,
+      "response": null,
+      "agent": {
+        "provider": "cerebras",
+        "model": "llama3.1-70b",
+        "name": "Cerebras Llama 3.1 70B"
+      }
+    },
+    {
+      "status": "SKIP",
+      "reason": "No API key for cerebras",
+      "time_ms": 0,
+      "response": null,
+      "agent": {
+        "provider": "cerebras",
+        "model": "qwen-3-32b",
+        "name": "Cerebras Qwen3 32B"
+      }
+    },
+    {
+      "status": "SKIP",
+      "reason": "No API key for together",
+      "time_ms": 0,
+      "response": null,
+      "agent": {
+        "provider": "together",
+        "model": "meta-llama/Llama-4-Scout-17B-16E-Instruct",
+        "name": "Together Llama 4 Scout 17B"
+      }
+    },
+    {
+      "status": "SKIP",
+      "reason": "No API key for together",
+      "time_ms": 0,
+      "response": null,
+      "agent": {
+        "provider": "together",
+        "model": "meta-llama/Llama-4-Maverick-17B-128E-Instruct",
+        "name": "Together Llama 4 Maverick"
+      }
+    },
+    {
+      "status": "SKIP",
+      "reason": "No API key for together",
+      "time_ms": 0,
+      "response": null,
+      "agent": {
+        "provider": "together",
+        "model": "meta-llama/Meta-Llama-3.1-70B-Instruct-Turbo",
+        "name": "Together Llama 3.1 70B Turbo"
+      }
+    },
+    {
+      "status": "SKIP",
+      "reason": "No API key for together",
+      "time_ms": 0,
+      "response": null,
+      "agent": {
+        "provider": "together",
+        "model": "meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo",
+        "name": "Together Llama 3.1 8B Turbo"
+      }
+    },
+    {
+      "status": "SKIP",
+      "reason": "No API key for together",
+      "time_ms": 0,
+      "response": null,
+      "agent": {
+        "provider": "together",
+        "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+        "name": "Together Llama 3.3 70B Turbo"
+      }
+    },
+    {
+      "status": "SKIP",
+      "reason": "No API key for together",
+      "time_ms": 0,
+      "response": null,
+      "agent": {
+        "provider": "together",
+        "model": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+        "name": "Together Qwen 2.5 7B Turbo"
+      }
+    },
+    {
+      "status": "SKIP",
+      "reason": "No API key for together",
+      "time_ms": 0,
+      "response": null,
+      "agent": {
+        "provider": "together",
+        "model": "deepseek-ai/DeepSeek-R1",
+        "name": "Together DeepSeek R1"
+      }
+    },
+    {
+      "status": "SKIP",
+      "reason": "No API key for together",
+      "time_ms": 0,
+      "response": null,
+      "agent": {
+        "provider": "together",
+        "model": "google/gemma-2-27b-it",
+        "name": "Together Gemma 2 27B"
+      }
+    },
+    {
+      "status": "SKIP",
+      "reason": "No API key for together",
+      "time_ms": 0,
+      "response": null,
+      "agent": {
+        "provider": "together",
+        "model": "mistralai/Mixtral-8x7B-Instruct-v0.1",
+        "name": "Together Mixtral 8x7B"
+      }
+    },
+    {
+      "status": "SKIP",
+      "reason": "No API key for together",
+      "time_ms": 0,
+      "response": null,
+      "agent": {
+        "provider": "together",
+        "model": "microsoft/WizardLM-2-8x22B",
+        "name": "Together WizardLM 2 8x22B"
+      }
+    },
+    {
+      "status": "SKIP",
+      "reason": "No API key for together",
+      "time_ms": 0,
+      "response": null,
+      "agent": {
+        "provider": "together",
+        "model": "NousResearch/Nous-Hermes-2-Yi-34B",
+        "name": "Together Hermes 2 Yi 34B"
+      }
+    },
+    {
+      "status": "SKIP",
+      "reason": "No API key for together",
+      "time_ms": 0,
+      "response": null,
+      "agent": {
+        "provider": "together",
+        "model": "togethercomputer/StripedHyena-Nous-7B",
+        "name": "Together StripedHyena 7B"
+      }
+    },
+    {
+      "status": "SKIP",
+      "reason": "No API key for together",
+      "time_ms": 0,
+      "response": null,
+      "agent": {
+        "provider": "together",
+        "model": "deepseek-ai/DeepSeek-V3",
+        "name": "Together DeepSeek V3"
+      }
+    },
+    {
+      "status": "SKIP",
+      "reason": "No API key for together",
+      "time_ms": 0,
+      "response": null,
+      "agent": {
+        "provider": "together",
+        "model": "Qwen/Qwen2.5-72B-Instruct-Turbo",
+        "name": "Together Qwen 2.5 72B Turbo"
+      }
+    },
+    {
+      "status": "SKIP",
+      "reason": "No API key for deepseek",
+      "time_ms": 0,
+      "response": null,
+      "agent": {
+        "provider": "deepseek",
+        "model": "deepseek-chat",
+        "name": "DeepSeek V3 Chat"
+      }
+    },
+    {
+      "status": "SKIP",
+      "reason": "No API key for deepseek",
+      "time_ms": 0,
+      "response": null,
+      "agent": {
+        "provider": "deepseek",
+        "model": "deepseek-reasoner",
+        "name": "DeepSeek R1 Reasoner"
+      }
+    },
+    {
+      "status": "SKIP",
+      "reason": "No API key for sambanova",
+      "time_ms": 0,
+      "response": null,
+      "agent": {
+        "provider": "sambanova",
+        "model": "Meta-Llama-3.3-70B-Instruct",
+        "name": "SambaNova Llama 3.3 70B"
+      }
+    },
+    {
+      "status": "SKIP",
+      "reason": "No API key for sambanova",
+      "time_ms": 0,
+      "response": null,
+      "agent": {
+        "provider": "sambanova",
+        "model": "Qwen2.5-72B-Instruct",
+        "name": "SambaNova Qwen 2.5 72B"
+      }
+    },
+    {
+      "status": "SKIP",
+      "reason": "No API key for sambanova",
+      "time_ms": 0,
+      "response": null,
+      "agent": {
+        "provider": "sambanova",
+        "model": "Meta-Llama-3.1-405B-Instruct",
+        "name": "SambaNova Llama 3.1 405B"
+      }
+    },
+    {
+      "status": "SKIP",
+      "reason": "No API key for sambanova",
+      "time_ms": 0,
+      "response": null,
+      "agent": {
+        "provider": "sambanova",
+        "model": "DeepSeek-R1-Distill-Llama-70B",
+        "name": "SambaNova DeepSeek R1 Distill"
+      }
+    },
+    {
+      "status": "SKIP",
+      "reason": "No API key for sambanova",
+      "time_ms": 0,
+      "response": null,
+      "agent": {
+        "provider": "sambanova",
+        "model": "Qwen3-32B",
+        "name": "SambaNova Qwen3 32B"
+      }
+    },
+    {
+      "status": "SKIP",
+      "reason": "No API key for nvidia",
+      "time_ms": 0,
+      "response": null,
+      "agent": {
+        "provider": "nvidia",
+        "model": "deepseek-ai/deepseek-r1",
+        "name": "NVIDIA DeepSeek R1"
+      }
+    },
+    {
+      "status": "SKIP",
+      "reason": "No API key for nvidia",
+      "time_ms": 0,
+      "response": null,
+      "agent": {
+        "provider": "nvidia",
+        "model": "meta/llama-3.3-70b-instruct",
+        "name": "NVIDIA Llama 3.3 70B"
+      }
+    },
+    {
+      "status": "SKIP",
+      "reason": "No API key for nvidia",
+      "time_ms": 0,
+      "response": null,
+      "agent": {
+        "provider": "nvidia",
+        "model": "meta/llama-3.1-405b-instruct",
+        "name": "NVIDIA Llama 3.1 405B"
+      }
+    },
+    {
+      "status": "SKIP",
+      "reason": "No API key for nvidia",
+      "time_ms": 0,
+      "response": null,
+      "agent": {
+        "provider": "nvidia",
+        "model": "qwen/qwen2.5-72b-instruct",
+        "name": "NVIDIA Qwen 2.5 72B"
+      }
+    },
+    {
+      "status": "SKIP",
+      "reason": "No API key for nvidia",
+      "time_ms": 0,
+      "response": null,
+      "agent": {
+        "provider": "nvidia",
+        "model": "nvidia/llama-3.1-nemotron-70b-instruct",
+        "name": "NVIDIA Nemotron 70B"
+      }
+    },
+    {
+      "status": "SKIP",
+      "reason": "No API key for nvidia",
+      "time_ms": 0,
+      "response": null,
+      "agent": {
+        "provider": "nvidia",
+        "model": "mistralai/mistral-large-2-instruct",
+        "name": "NVIDIA Mistral Large 2"
+      }
+    },
+    {
+      "status": "SKIP",
+      "reason": "No API key for nvidia",
+      "time_ms": 0,
+      "response": null,
+      "agent": {
+        "provider": "nvidia",
+        "model": "microsoft/phi-3.5-mini-instruct",
+        "name": "NVIDIA Phi 3.5 Mini"
+      }
+    },
+    {
+      "status": "SKIP",
+      "reason": "No API key for nvidia",
+      "time_ms": 0,
+      "response": null,
+      "agent": {
+        "provider": "nvidia",
+        "model": "ibm/granite-3.0-8b-instruct",
+        "name": "NVIDIA IBM Granite 3.0 8B"
+      }
+    },
+    {
+      "status": "SKIP",
+      "reason": "No API key for cohere",
+      "time_ms": 0,
+      "response": null,
+      "agent": {
+        "provider": "cohere",
+        "model": "command-r-plus-08-2024",
+        "name": "Cohere Command R+ (Aug 2024)"
+      }
+    },
+    {
+      "status": "SKIP",
+      "reason": "No API key for cohere",
+      "time_ms": 0,
+      "response": null,
+      "agent": {
+        "provider": "cohere",
+        "model": "command-r7b-12-2024",
+        "name": "Cohere Command R7B"
+      }
+    },
+    {
+      "status": "SKIP",
+      "reason": "No API key for cohere",
+      "time_ms": 0,
+      "response": null,
+      "agent": {
+        "provider": "cohere",
+        "model": "command-r-08-2024",
+        "name": "Cohere Command R (Aug 2024)"
+      }
+    },
+    {
+      "status": "SKIP",
+      "reason": "No API key for cohere",
+      "time_ms": 0,
+      "response": null,
+      "agent": {
+        "provider": "cohere",
+        "model": "command-light",
+        "name": "Cohere Command Light"
+      }
+    },
+    {
+      "status": "SKIP",
+      "reason": "No API key for fireworks",
+      "time_ms": 0,
+      "response": null,
+      "agent": {
+        "provider": "fireworks",
+        "model": "accounts/fireworks/models/llama-v3p3-70b-instruct",
+        "name": "Fireworks Llama 3.3 70B"
+      }
+    },
+    {
+      "status": "SKIP",
+      "reason": "No API key for fireworks",
+      "time_ms": 0,
+      "response": null,
+      "agent": {
+        "provider": "fireworks",
+        "model": "accounts/fireworks/models/mixtral-8x7b-instruct",
+        "name": "Fireworks Mixtral 8x7B"
+      }
+    },
+    {
+      "status": "SKIP",
+      "reason": "No API key for fireworks",
+      "time_ms": 0,
+      "response": null,
+      "agent": {
+        "provider": "fireworks",
+        "model": "accounts/fireworks/models/qwen2p5-72b-instruct",
+        "name": "Fireworks Qwen 2.5 72B"
+      }
+    },
+    {
+      "status": "SKIP",
+      "reason": "No API key for fireworks",
+      "time_ms": 0,
+      "response": null,
+      "agent": {
+        "provider": "fireworks",
+        "model": "accounts/fireworks/models/llama-v3p1-8b-instruct",
+        "name": "Fireworks Llama 3.1 8B"
+      }
+    },
+    {
+      "status": "SKIP",
+      "reason": "No API key for fireworks",
+      "time_ms": 0,
+      "response": null,
+      "agent": {
+        "provider": "fireworks",
+        "model": "accounts/fireworks/models/deepseek-v3",
+        "name": "Fireworks DeepSeek V3"
+      }
+    },
+    {
+      "status": "SKIP",
+      "reason": "No API key for fireworks",
+      "time_ms": 0,
+      "response": null,
+      "agent": {
+        "provider": "fireworks",
+        "model": "accounts/fireworks/models/mixtral-8x22b-instruct",
+        "name": "Fireworks Mixtral 8x22B"
+      }
+    },
+    {
+      "status": "SKIP",
+      "reason": "No API key for hyperbolic",
+      "time_ms": 0,
+      "response": null,
+      "agent": {
+        "provider": "hyperbolic",
+        "model": "deepseek-ai/DeepSeek-V3",
+        "name": "Hyperbolic DeepSeek V3"
+      }
+    },
+    {
+      "status": "SKIP",
+      "reason": "No API key for hyperbolic",
+      "time_ms": 0,
+      "response": null,
+      "agent": {
+        "provider": "hyperbolic",
+        "model": "meta-llama/Llama-3.3-70B-Instruct",
+        "name": "Hyperbolic Llama 3.3 70B"
+      }
+    },
+    {
+      "status": "SKIP",
+      "reason": "No API key for hyperbolic",
+      "time_ms": 0,
+      "response": null,
+      "agent": {
+        "provider": "hyperbolic",
+        "model": "meta-llama/Llama-3.1-405B-FP8",
+        "name": "Hyperbolic Llama 3.1 405B"
+      }
+    },
+    {
+      "status": "SKIP",
+      "reason": "No API key for hyperbolic",
+      "time_ms": 0,
+      "response": null,
+      "agent": {
+        "provider": "hyperbolic",
+        "model": "Qwen/Qwen2.5-72B-Instruct",
+        "name": "Hyperbolic Qwen 2.5 72B"
+      }
+    },
+    {
+      "status": "SKIP",
+      "reason": "No API key for hyperbolic",
+      "time_ms": 0,
+      "response": null,
+      "agent": {
+        "provider": "hyperbolic",
+        "model": "deepseek-ai/DeepSeek-R1",
+        "name": "Hyperbolic DeepSeek R1"
+      }
+    },
+    {
+      "status": "SKIP",
+      "reason": "No API key for cloudflare",
+      "time_ms": 0,
+      "response": null,
+      "agent": {
+        "provider": "cloudflare",
+        "model": "@cf/google/gemma-7b-it",
+        "name": "Cloudflare Gemma 7B"
+      }
+    },
+    {
+      "status": "SKIP",
+      "reason": "No API key for cloudflare",
+      "time_ms": 0,
+      "response": null,
+      "agent": {
+        "provider": "cloudflare",
+        "model": "@cf/qwen/qwen1.5-7b-chat-awq",
+        "name": "Cloudflare Qwen 1.5 7B"
+      }
+    },
+    {
+      "status": "SKIP",
+      "reason": "No API key for cloudflare",
+      "time_ms": 0,
+      "response": null,
+      "agent": {
+        "provider": "cloudflare",
+        "model": "@cf/mistral/mistral-7b-instruct-v0.2-lora",
+        "name": "Cloudflare Mistral 7B LoRA"
+      }
+    },
+    {
+      "status": "SKIP",
+      "reason": "No API key for cloudflare",
+      "time_ms": 0,
+      "response": null,
+      "agent": {
+        "provider": "cloudflare",
+        "model": "@cf/meta/llama-3.2-11b-vision-instruct",
+        "name": "Cloudflare Llama 3.2 11B Vision"
+      }
+    },
+    {
+      "status": "SKIP",
+      "reason": "No API key for cloudflare",
+      "time_ms": 0,
+      "response": null,
+      "agent": {
+        "provider": "cloudflare",
+        "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+        "name": "Cloudflare Llama 3.3 70B FP8"
+      }
+    },
+    {
+      "status": "SKIP",
+      "reason": "No API key for cloudflare",
+      "time_ms": 0,
+      "response": null,
+      "agent": {
+        "provider": "cloudflare",
+        "model": "@cf/microsoft/phi-2",
+        "name": "Cloudflare Phi-2"
+      }
+    },
+    {
+      "status": "SKIP",
+      "reason": "No API key for cloudflare",
+      "time_ms": 0,
+      "response": null,
+      "agent": {
+        "provider": "cloudflare",
+        "model": "@hf/thebloke/deepseek-coder-6.7b-instruct-awq",
+        "name": "Cloudflare DeepSeek Coder 6.7B"
+      }
+    },
+    {
+      "status": "SKIP",
+      "reason": "No API key for github",
+      "time_ms": 0,
+      "response": null,
+      "agent": {
+        "provider": "github",
+        "model": "Phi-3.5-mini-instruct",
+        "name": "GitHub Models \u2014 Phi-3.5 Mini"
+      }
+    },
+    {
+      "status": "SKIP",
+      "reason": "No API key for github",
+      "time_ms": 0,
+      "response": null,
+      "agent": {
+        "provider": "github",
+        "model": "gpt-4o-mini",
+        "name": "GitHub Models \u2014 GPT-4o Mini"
+      }
+    },
+    {
+      "status": "SKIP",
+      "reason": "No API key for github",
+      "time_ms": 0,
+      "response": null,
+      "agent": {
+        "provider": "github",
+        "model": "Phi-4-mini",
+        "name": "GitHub Models \u2014 Phi-4 Mini"
+      }
+    },
+    {
+      "status": "SKIP",
+      "reason": "No API key for github",
+      "time_ms": 0,
+      "response": null,
+      "agent": {
+        "provider": "github",
+        "model": "meta-llama-3.3-70b-instruct",
+        "name": "GitHub Models \u2014 Llama 3.3 70B"
+      }
+    },
+    {
+      "status": "SKIP",
+      "reason": "No API key for github",
+      "time_ms": 0,
+      "response": null,
+      "agent": {
+        "provider": "github",
+        "model": "Phi-4",
+        "name": "GitHub Models \u2014 Phi-4"
+      }
+    },
+    {
+      "status": "SKIP",
+      "reason": "No API key for github",
+      "time_ms": 0,
+      "response": null,
+      "agent": {
+        "provider": "github",
+        "model": "gpt-4o",
+        "name": "GitHub Models \u2014 GPT-4o"
+      }
+    },
+    {
+      "status": "SKIP",
+      "reason": "No API key for github",
+      "time_ms": 0,
+      "response": null,
+      "agent": {
+        "provider": "github",
+        "model": "mistral-large-2411",
+        "name": "GitHub Models \u2014 Mistral Large"
+      }
+    },
+    {
+      "status": "SKIP",
+      "reason": "No API key for github",
+      "time_ms": 0,
+      "response": null,
+      "agent": {
+        "provider": "github",
+        "model": "ai21-jamba-1.5-large",
+        "name": "GitHub Models \u2014 AI21 Jamba 1.5"
+      }
+    },
+    {
+      "status": "SKIP",
+      "reason": "No API key for github",
+      "time_ms": 0,
+      "response": null,
+      "agent": {
+        "provider": "github",
+        "model": "mistral-nemo",
+        "name": "GitHub Models \u2014 Mistral Nemo"
+      }
+    },
+    {
+      "status": "SKIP",
+      "reason": "No API key for github",
+      "time_ms": 0,
+      "response": null,
+      "agent": {
+        "provider": "github",
+        "model": "cohere-command-r",
+        "name": "GitHub Models \u2014 Cohere Command R"
+      }
+    },
+    {
+      "status": "SKIP",
+      "reason": "No API key for huggingface",
+      "time_ms": 0,
+      "response": null,
+      "agent": {
+        "provider": "huggingface",
+        "model": "google/gemma-2-9b-it",
+        "name": "HF Gemma 2 9B"
+      }
+    },
+    {
+      "status": "SKIP",
+      "reason": "No API key for huggingface",
+      "time_ms": 0,
+      "response": null,
+      "agent": {
+        "provider": "huggingface",
+        "model": "Qwen/Qwen2.5-7B-Instruct",
+        "name": "HF Qwen 2.5 7B"
+      }
+    },
+    {
+      "status": "SKIP",
+      "reason": "No API key for huggingface",
+      "time_ms": 0,
+      "response": null,
+      "agent": {
+        "provider": "huggingface",
+        "model": "meta-llama/Meta-Llama-3-8B-Instruct",
+        "name": "HF Llama 3 8B Instruct"
+      }
+    },
+    {
+      "status": "SKIP",
+      "reason": "No API key for huggingface",
+      "time_ms": 0,
+      "response": null,
+      "agent": {
+        "provider": "huggingface",
+        "model": "mistralai/Mistral-7B-Instruct-v0.3",
+        "name": "HF Mistral 7B v0.3"
+      }
+    },
+    {
+      "status": "SKIP",
+      "reason": "No API key for huggingface",
+      "time_ms": 0,
+      "response": null,
+      "agent": {
+        "provider": "huggingface",
+        "model": "HuggingFaceH4/zephyr-7b-beta",
+        "name": "HF Zephyr 7B Beta"
+      }
+    },
+    {
+      "status": "SKIP",
+      "reason": "No API key for huggingface",
+      "time_ms": 0,
+      "response": null,
+      "agent": {
+        "provider": "huggingface",
+        "model": "microsoft/Phi-3.5-mini-instruct",
+        "name": "HF Phi-3.5 Mini"
+      }
+    },
+    {
+      "status": "SKIP",
+      "reason": "No API key for huggingface",
+      "time_ms": 0,
+      "response": null,
+      "agent": {
+        "provider": "huggingface",
+        "model": "NousResearch/Nous-Hermes-2-Mistral-7B-DPO",
+        "name": "HF Nous Hermes 2 Mistral"
+      }
+    },
+    {
+      "status": "SKIP",
+      "reason": "No API key for huggingface",
+      "time_ms": 0,
+      "response": null,
+      "agent": {
+        "provider": "huggingface",
+        "model": "teknium/OpenHermes-2.5-Mistral-7B",
+        "name": "HF OpenHermes 2.5 Mistral"
+      }
+    },
+    {
+      "status": "SKIP",
+      "reason": "No API key for huggingface",
+      "time_ms": 0,
+      "response": null,
+      "agent": {
+        "provider": "huggingface",
+        "model": "upstage/SOLAR-10.7B-Instruct-v1.0",
+        "name": "HF SOLAR 10.7B"
+      }
+    },
+    {
+      "status": "FAIL",
+      "reason": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/chat (Caused by NewConnectionError(\"HTTPConnection(host='localho",
+      "time_ms": 6,
+      "agent": {
+        "provider": "ollama",
+        "model": "llama3.2",
+        "name": "Ollama \u2014 Llama 3.2 3B"
+      }
+    },
+    {
+      "status": "FAIL",
+      "reason": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/chat (Caused by NewConnectionError(\"HTTPConnection(host='localho",
+      "time_ms": 7,
+      "agent": {
+        "provider": "ollama",
+        "model": "llama3.2:1b",
+        "name": "Ollama \u2014 Llama 3.2 1B"
+      }
+    },
+    {
+      "status": "FAIL",
+      "reason": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/chat (Caused by NewConnectionError(\"HTTPConnection(host='localho",
+      "time_ms": 5,
+      "agent": {
+        "provider": "ollama",
+        "model": "llama3.1",
+        "name": "Ollama \u2014 Llama 3.1 8B"
+      }
+    },
+    {
+      "status": "FAIL",
+      "reason": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/chat (Caused by NewConnectionError(\"HTTPConnection(host='localho",
+      "time_ms": 3,
+      "agent": {
+        "provider": "ollama",
+        "model": "mistral",
+        "name": "Ollama \u2014 Mistral 7B"
+      }
+    },
+    {
+      "status": "FAIL",
+      "reason": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/chat (Caused by NewConnectionError(\"HTTPConnection(host='localho",
+      "time_ms": 6,
+      "agent": {
+        "provider": "ollama",
+        "model": "llama3.1:70b",
+        "name": "Ollama \u2014 Llama 3.1 70B"
+      }
+    },
+    {
+      "status": "FAIL",
+      "reason": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/chat (Caused by NewConnectionError(\"HTTPConnection(host='localho",
+      "time_ms": 5,
+      "agent": {
+        "provider": "ollama",
+        "model": "mistral-nemo",
+        "name": "Ollama \u2014 Mistral Nemo"
+      }
+    },
+    {
+      "status": "FAIL",
+      "reason": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/chat (Caused by NewConnectionError(\"HTTPConnection(host='localho",
+      "time_ms": 4,
+      "agent": {
+        "provider": "ollama",
+        "model": "gemma3:12b",
+        "name": "Ollama \u2014 Gemma 3 12B"
+      }
+    },
+    {
+      "status": "FAIL",
+      "reason": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/chat (Caused by NewConnectionError(\"HTTPConnection(host='localho",
+      "time_ms": 3,
+      "agent": {
+        "provider": "ollama",
+        "model": "qwen2.5:7b",
+        "name": "Ollama \u2014 Qwen 2.5 7B"
+      }
+    },
+    {
+      "status": "FAIL",
+      "reason": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/chat (Caused by NewConnectionError(\"HTTPConnection(host='localho",
+      "time_ms": 8,
+      "agent": {
+        "provider": "ollama",
+        "model": "gemma3:4b",
+        "name": "Ollama \u2014 Gemma 3 4B"
+      }
+    },
+    {
+      "status": "FAIL",
+      "reason": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/chat (Caused by NewConnectionError(\"HTTPConnection(host='localho",
+      "time_ms": 1,
+      "agent": {
+        "provider": "ollama",
+        "model": "phi3",
+        "name": "Ollama \u2014 Phi-3 Mini"
+      }
+    },
+    {
+      "status": "FAIL",
+      "reason": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/chat (Caused by NewConnectionError(\"HTTPConnection(host='localho",
+      "time_ms": 5,
+      "agent": {
+        "provider": "ollama",
+        "model": "qwen2.5:32b",
+        "name": "Ollama \u2014 Qwen 2.5 32B"
+      }
+    },
+    {
+      "status": "FAIL",
+      "reason": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/chat (Caused by NewConnectionError(\"HTTPConnection(host='localho",
+      "time_ms": 5,
+      "agent": {
+        "provider": "ollama",
+        "model": "qwen2.5:72b",
+        "name": "Ollama \u2014 Qwen 2.5 72B"
+      }
+    },
+    {
+      "status": "FAIL",
+      "reason": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/chat (Caused by NewConnectionError(\"HTTPConnection(host='localho",
+      "time_ms": 3,
+      "agent": {
+        "provider": "ollama",
+        "model": "phi4",
+        "name": "Ollama \u2014 Phi-4 (14B)"
+      }
+    },
+    {
+      "status": "FAIL",
+      "reason": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/chat (Caused by NewConnectionError(\"HTTPConnection(host='localho",
+      "time_ms": 6,
+      "agent": {
+        "provider": "ollama",
+        "model": "phi3:medium",
+        "name": "Ollama \u2014 Phi-3 Medium"
+      }
+    },
+    {
+      "status": "FAIL",
+      "reason": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/chat (Caused by NewConnectionError(\"HTTPConnection(host='localho",
+      "time_ms": 4,
+      "agent": {
+        "provider": "ollama",
+        "model": "phi4-mini",
+        "name": "Ollama \u2014 Phi-4 Mini"
+      }
+    },
+    {
+      "status": "FAIL",
+      "reason": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/chat (Caused by NewConnectionError(\"HTTPConnection(host='localho",
+      "time_ms": 4,
+      "agent": {
+        "provider": "ollama",
+        "model": "deepseek-r1",
+        "name": "Ollama \u2014 DeepSeek R1 7B"
+      }
+    },
+    {
+      "status": "FAIL",
+      "reason": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/chat (Caused by NewConnectionError(\"HTTPConnection(host='localho",
+      "time_ms": 4,
+      "agent": {
+        "provider": "ollama",
+        "model": "deepseek-r1:14b",
+        "name": "Ollama \u2014 DeepSeek R1 14B"
+      }
+    },
+    {
+      "status": "FAIL",
+      "reason": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/chat (Caused by NewConnectionError(\"HTTPConnection(host='localho",
+      "time_ms": 4,
+      "agent": {
+        "provider": "ollama",
+        "model": "deepseek-r1:32b",
+        "name": "Ollama \u2014 DeepSeek R1 32B"
+      }
+    },
+    {
+      "status": "FAIL",
+      "reason": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/chat (Caused by NewConnectionError(\"HTTPConnection(host='localho",
+      "time_ms": 4,
+      "agent": {
+        "provider": "ollama",
+        "model": "deepseek-v3",
+        "name": "Ollama \u2014 DeepSeek V3"
+      }
+    },
+    {
+      "status": "FAIL",
+      "reason": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/chat (Caused by NewConnectionError(\"HTTPConnection(host='localho",
+      "time_ms": 4,
+      "agent": {
+        "provider": "ollama",
+        "model": "codellama",
+        "name": "Ollama \u2014 Code Llama 7B"
+      }
+    },
+    {
+      "status": "FAIL",
+      "reason": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/chat (Caused by NewConnectionError(\"HTTPConnection(host='localho",
+      "time_ms": 4,
+      "agent": {
+        "provider": "ollama",
+        "model": "llava",
+        "name": "Ollama \u2014 LLaVA 7B"
+      }
+    },
+    {
+      "status": "FAIL",
+      "reason": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/chat (Caused by NewConnectionError(\"HTTPConnection(host='localho",
+      "time_ms": 7,
+      "agent": {
+        "provider": "ollama",
+        "model": "solar",
+        "name": "Ollama \u2014 SOLAR 10.7B"
+      }
+    },
+    {
+      "status": "FAIL",
+      "reason": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/chat (Caused by NewConnectionError(\"HTTPConnection(host='localho",
+      "time_ms": 5,
+      "agent": {
+        "provider": "ollama",
+        "model": "llava:13b",
+        "name": "Ollama \u2014 LLaVA 13B"
+      }
+    },
+    {
+      "status": "FAIL",
+      "reason": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/chat (Caused by NewConnectionError(\"HTTPConnection(host='localho",
+      "time_ms": 4,
+      "agent": {
+        "provider": "ollama",
+        "model": "openhermes",
+        "name": "Ollama \u2014 OpenHermes"
+      }
+    },
+    {
+      "status": "FAIL",
+      "reason": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/chat (Caused by NewConnectionError(\"HTTPConnection(host='localho",
+      "time_ms": 4,
+      "agent": {
+        "provider": "ollama",
+        "model": "nous-hermes2",
+        "name": "Ollama \u2014 Nous Hermes 2"
+      }
+    },
+    {
+      "status": "FAIL",
+      "reason": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/chat (Caused by NewConnectionError(\"HTTPConnection(host='localho",
+      "time_ms": 5,
+      "agent": {
+        "provider": "ollama",
+        "model": "neural-chat",
+        "name": "Ollama \u2014 Neural Chat 7B"
+      }
+    },
+    {
+      "status": "FAIL",
+      "reason": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/chat (Caused by NewConnectionError(\"HTTPConnection(host='localho",
+      "time_ms": 5,
+      "agent": {
+        "provider": "ollama",
+        "model": "starling-lm",
+        "name": "Ollama \u2014 Starling LM 7B"
+      }
+    },
+    {
+      "status": "FAIL",
+      "reason": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/chat (Caused by NewConnectionError(\"HTTPConnection(host='localho",
+      "time_ms": 5,
+      "agent": {
+        "provider": "ollama",
+        "model": "orca-mini",
+        "name": "Ollama \u2014 Orca Mini"
+      }
+    },
+    {
+      "status": "FAIL",
+      "reason": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/chat (Caused by NewConnectionError(\"HTTPConnection(host='localho",
+      "time_ms": 1,
+      "agent": {
+        "provider": "ollama",
+        "model": "falcon",
+        "name": "Ollama \u2014 Falcon 7B"
+      }
+    },
+    {
+      "status": "FAIL",
+      "reason": "HTTPConnectionPool(host='localhost', port=11434): Max retries exceeded with url: /api/chat (Caused by NewConnectionError(\"HTTPConnection(host='localho",
+      "time_ms": 3,
+      "agent": {
+        "provider": "ollama",
+        "model": "vicuna",
+        "name": "Ollama \u2014 Vicuna 7B"
+      }
+    },
+    {
+      "status": "SKIP",
+      "reason": "No API key for openai",
+      "time_ms": 0,
+      "response": null,
+      "agent": {
+        "provider": "openai",
+        "model": "gpt-4o",
+        "name": "OpenAI GPT-4o"
+      }
+    },
+    {
+      "status": "SKIP",
+      "reason": "No API key for openai",
+      "time_ms": 0,
+      "response": null,
+      "agent": {
+        "provider": "openai",
+        "model": "gpt-3.5-turbo",
+        "name": "OpenAI GPT-3.5 Turbo"
+      }
+    },
+    {
+      "status": "SKIP",
+      "reason": "No API key for openai",
+      "time_ms": 0,
+      "response": null,
+      "agent": {
+        "provider": "openai",
+        "model": "o3-mini",
+        "name": "OpenAI o3-Mini"
+      }
+    },
+    {
+      "status": "SKIP",
+      "reason": "No API key for openai",
+      "time_ms": 0,
+      "response": null,
+      "agent": {
+        "provider": "openai",
+        "model": "gpt-4-turbo",
+        "name": "OpenAI GPT-4 Turbo"
+      }
+    },
+    {
+      "status": "SKIP",
+      "reason": "No API key for openai",
+      "time_ms": 0,
+      "response": null,
+      "agent": {
+        "provider": "openai",
+        "model": "gpt-4o-mini",
+        "name": "OpenAI GPT-4o Mini"
+      }
+    },
+    {
+      "status": "SKIP",
+      "reason": "No API key for openai",
+      "time_ms": 0,
+      "response": null,
+      "agent": {
+        "provider": "openai",
+        "model": "o1-mini",
+        "name": "OpenAI o1-Mini"
+      }
+    },
+    {
+      "status": "SKIP",
+      "reason": "No API key for anthropic",
+      "time_ms": 0,
+      "response": null,
+      "agent": {
+        "provider": "anthropic",
+        "model": "claude-3-5-haiku-20241022",
+        "name": "Anthropic Claude 3.5 Haiku"
+      }
+    },
+    {
+      "status": "SKIP",
+      "reason": "No API key for anthropic",
+      "time_ms": 0,
+      "response": null,
+      "agent": {
+        "provider": "anthropic",
+        "model": "claude-3-opus-20240229",
+        "name": "Anthropic Claude 3 Opus"
+      }
+    },
+    {
+      "status": "SKIP",
+      "reason": "No API key for anthropic",
+      "time_ms": 0,
+      "response": null,
+      "agent": {
+        "provider": "anthropic",
+        "model": "claude-3-5-sonnet-20241022",
+        "name": "Anthropic Claude 3.5 Sonnet"
+      }
+    },
+    {
+      "status": "SKIP",
+      "reason": "No API key for anthropic",
+      "time_ms": 0,
+      "response": null,
+      "agent": {
+        "provider": "anthropic",
+        "model": "claude-3-haiku-20240307",
+        "name": "Anthropic Claude 3 Haiku"
+      }
+    }
+  ]
+}
